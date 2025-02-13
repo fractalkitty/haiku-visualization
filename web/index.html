@@ -248,22 +248,32 @@
                 .data(nodes)
                 .join("g")
                 .attr("class", "haiku-node");
-
+console.log("✅ Haiku Data Loaded in Global Variable:", haikuDataGlobal);
             nodeGroups.append("circle")
                 .attr("r", d => d.r)
                 .style("fill", d3.interpolateBlues(0.3))
                 .style("cursor", "pointer")
-               .on("mouseover", function(event, d) {
-                   d3.select(this).style("fill", d3.interpolateBlues(0.6));
-               
-                   const haiku = haikuDataGlobal.find(h => String(h.index) === String(d.index));
-                   const haikuText = haiku ? haiku.text.replace(/\n/g, "<br><br>") : "<em>Haiku not found</em>";
-               
-                   // Update the haiku display area instead of showing a tooltip
-                   document.getElementById("haiku-text").innerHTML = `<strong>Haiku #${d.index}</strong><br>${haikuText}`;
-               })
+                .on("mouseover", function(event, d) {
+                    d3.select(this).style("fill", d3.interpolateBlues(0.6));
                 
-                .on("mouseout", function() {
+                    let adjustedIndex = Number(d.index) + 1;  // Fix the offset issue
+                
+                    console.log(`🔎 Hovered Index: ${d.index} | Adjusted Index: ${adjustedIndex}`);
+                    console.log("📜 Available Haiku Indexes:", haikuDataGlobal.map(h => h.index));
+                
+                    const haiku = haikuDataGlobal.find(h => Number(h.index) === adjustedIndex);
+                
+                    if (!haiku) {
+                        console.warn(`❌ Haiku #${adjustedIndex} not found in dataset!`);
+                    } else {
+                        console.log(`✅ Found Haiku #${adjustedIndex}:`, haiku.text);
+                    }
+                
+                    const haikuText = haiku ? haiku.text.replace(/\n/g, "<br><br>") : "<em>Haiku not found</em>";
+                
+                    document.getElementById("haiku-text").innerHTML = `<strong>Haiku #${adjustedIndex}</strong><br>${haikuText}`;
+                })
+                .on("mouseout", function() { // ✅ Removed incorrect dot before `.on`
                     d3.select(this).style("fill", d3.interpolateBlues(0.3));
                     tooltip.style("opacity", 0);
                 });
