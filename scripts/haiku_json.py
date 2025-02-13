@@ -14,7 +14,7 @@ def convert_haiku_csv_to_json(input_csv_path="../data/haiku.csv", output_json_pa
         line2_col = next(h for h in headers if h.lower() == 'line2')
         line3_col = next(h for h in headers if h.lower() == 'line3')
         
-        for index, row in enumerate(reader, 1):
+        for index, row in enumerate(reader, 0):
             # Use the actual column names from the CSV
             haiku_text = f"{row[line1_col]}\n{row[line2_col]}\n{row[line3_col]}"
             
