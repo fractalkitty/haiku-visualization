@@ -1,7 +1,7 @@
 {
   "haikus": [
     {
-      "index": 1,
+      "index": 0,
       "text": "serendipity\nof serendipity in\nserendipity",
       "words": [
         "serendipity",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "index": 2,
+      "index": 1,
       "text": "sky sits on the ground\ncontained within the puddles\nclouds splash on my feet",
       "words": [
         "sky",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "index": 3,
+      "index": 2,
       "text": "a beautiful Run\ncrows in puddles and in trees\nwatch me; smile at me",
       "words": [
         "a",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "index": 4,
+      "index": 3,
       "text": "rain in the winter\nclosest to the sun today\nhide aphelion",
       "words": [
         "rain",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "index": 5,
+      "index": 4,
       "text": "in my cup, coffee\nsmell, taste of being awake\ntoday, good morning!",
       "words": [
         "in",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "index": 6,
+      "index": 5,
       "text": "wake up to a hug\npink Clouds wrap around my eyes\ngood morning Glory",
       "words": [
         "wake",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "index": 7,
+      "index": 6,
       "text": "winter sun gives hints\nlike a love note in the morn\nI glow in the warmth",
       "words": [
         "winter",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "index": 8,
+      "index": 7,
       "text": "hoya of Nana\ngenerations green and full\nblooming in my sill",
       "words": [
         "hoya",
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "index": 9,
+      "index": 8,
       "text": "a foggy morning\nfaint branches in a white sea\nlike old memories",
       "words": [
         "a",
@@ -164,7 +164,7 @@
       ]
     },
     {
-      "index": 10,
+      "index": 9,
       "text": "fog again today\nthe same and yet different\nfractal winter days",
       "words": [
         "fog",
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "index": 11,
+      "index": 10,
       "text": "wind gusts bending trees\nhummingbird stands firm and still\nstrength in this small life",
       "words": [
         "wind",
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "index": 12,
+      "index": 11,
       "text": "teaching math all day\nsine, cosine, tangents and more\nit is my function",
       "words": [
         "teaching",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "index": 13,
+      "index": 12,
       "text": "swimming in a sea\ndroplets, the bubbles in air\nfog rolls in like tide",
       "words": [
         "swimming",
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "index": 14,
+      "index": 13,
       "text": "pentagonal life\nperfect, beautiful flowers\nbeauty does abound",
       "words": [
         "pentagonal",
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "index": 15,
+      "index": 14,
       "text": "the silver lining\norchid blooming for a year\nbeauty in my home",
       "words": [
         "the",
@@ -272,7 +272,7 @@
       ]
     },
     {
-      "index": 16,
+      "index": 15,
       "text": "my townsend warbler\nyellow streaks in my backyard\na glow in winter",
       "words": [
         "my",
@@ -290,7 +290,7 @@
       ]
     },
     {
-      "index": 17,
+      "index": 16,
       "text": "like a fluffy whip\nbut chaotic and angry\nthe squirrel tail scolds",
       "words": [
         "like",
@@ -308,7 +308,7 @@
       ]
     },
     {
-      "index": 18,
+      "index": 17,
       "text": "this path is flooded\nwith a moment — reflection\nto then turn around",
       "words": [
         "this",
@@ -327,7 +327,7 @@
       ]
     },
     {
-      "index": 19,
+      "index": 18,
       "text": "the base of thirteen\nwould be an interesting\nthought our units",
       "words": [
         "the",
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "index": 20,
+      "index": 19,
       "text": "why isn’t solstace\nthe year’s end or beginning\nare we not of space?",
       "words": [
         "why",
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "index": 21,
+      "index": 20,
       "text": "paths beneath my feet\nnodes in the past and future\ngraphs of my being",
       "words": [
         "paths",
@@ -383,7 +383,7 @@
       ]
     },
     {
-      "index": 22,
+      "index": 21,
       "text": "crow grabs the sunlight\nwarmth catching the top branches\nblack feathers at dusk",
       "words": [
         "crow",
@@ -402,7 +402,7 @@
       ]
     },
     {
-      "index": 23,
+      "index": 22,
       "text": "faint little circle\npartially obscured by sky\nbranches reach, yearning",
       "words": [
         "faint",
@@ -418,7 +418,7 @@
       ]
     },
     {
-      "index": 24,
+      "index": 23,
       "text": "early morning song\nvibrato pierces the morn\nbirds rouse the whole earth",
       "words": [
         "early",
@@ -436,7 +436,7 @@
       ]
     },
     {
-      "index": 25,
+      "index": 24,
       "text": "tip top, fir tree crow\nclaim the branch, caw to below\nannounce the sunset",
       "words": [
         "tip",
@@ -456,7 +456,7 @@
       ]
     },
     {
-      "index": 26,
+      "index": 25,
       "text": "images within\nvivid inner gratitude\na place to gather",
       "words": [
         "images",
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "index": 27,
+      "index": 26,
       "text": "twisted growth, out, up\nholding sky with tangled limbs\nsilhouette white oak",
       "words": [
         "twisted",
@@ -489,7 +489,7 @@
       ]
     },
     {
-      "index": 28,
+      "index": 27,
       "text": "look up — perspective\ncedars converge together\nwhispering of blue",
       "words": [
         "look",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "index": 29,
+      "index": 28,
       "text": "beauty in my mind\nlook inwards with boundlessness\nuncountable, be",
       "words": [
         "beauty",
@@ -521,7 +521,7 @@
       ]
     },
     {
-      "index": 30,
+      "index": 29,
       "text": "ribbons of fungus\ngossamer laced water beads\nlife’s intricacies",
       "words": [
         "ribbons",
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "index": 31,
+      "index": 30,
       "text": "modest are the trees\nmoss draping over branches\nhidden is the wood",
       "words": [
         "modest",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "index": 32,
+      "index": 31,
       "text": "splashing in pure joy\nimmersing in the moment\nin the now of life",
       "words": [
         "splashing",
@@ -573,7 +573,7 @@
       ]
     },
     {
-      "index": 33,
+      "index": 32,
       "text": "three generations\ntogether, watching the birds\nquiet etched in time",
       "words": [
         "three",
@@ -589,7 +589,7 @@
       ]
     },
     {
-      "index": 34,
+      "index": 33,
       "text": "black, soft, powder stick\nthe raw transforms to beauty\ncharcoal to paper",
       "words": [
         "black",
@@ -607,7 +607,7 @@
       ]
     },
     {
-      "index": 35,
+      "index": 34,
       "text": "probability\ncrows checking under each leaf\np of finding nuts",
       "words": [
         "probability",
@@ -623,7 +623,7 @@
       ]
     },
     {
-      "index": 36,
+      "index": 35,
       "text": "here, nested circles\nripples from raindrops expand\nglitches in water",
       "words": [
         "here",
@@ -639,7 +639,7 @@
       ]
     },
     {
-      "index": 37,
+      "index": 36,
       "text": "the various V’s\nconfigurations of flight\nabsolute values",
       "words": [
         "the",
@@ -653,7 +653,7 @@
       ]
     },
     {
-      "index": 38,
+      "index": 37,
       "text": "yellow-rumped warbler\nflit, fly, jump, play — pierce the gray\nharbinger of spring",
       "words": [
         "yellow-rumped",
@@ -672,7 +672,7 @@
       ]
     },
     {
-      "index": 39,
+      "index": 38,
       "text": "of growth and decay\nsuch precious time in this life\nlearning quarantunes",
       "words": [
         "of",
@@ -690,7 +690,7 @@
       ]
     },
     {
-      "index": 40,
+      "index": 39,
       "text": "I always look up\nto the trees; magnificent\nmy smallness is known",
       "words": [
         "i",
@@ -708,7 +708,7 @@
       ]
     },
     {
-      "index": 41,
+      "index": 40,
       "text": "the lenses we have\nmagnify, distort, and bend\nour reality",
       "words": [
         "the",
@@ -724,7 +724,7 @@
       ]
     },
     {
-      "index": 42,
+      "index": 41,
       "text": "I breath in and out\nthe air that circles the earth\nthe eddies of life",
       "words": [
         "i",
@@ -745,7 +745,7 @@
       ]
     },
     {
-      "index": 43,
+      "index": 42,
       "text": "cumulative drops\nglazing ice on leaf and limb\nwinter steps on spring",
       "words": [
         "cumulative",
@@ -763,7 +763,7 @@
       ]
     },
     {
-      "index": 44,
+      "index": 43,
       "text": "generosity\nso humbling, loving, and kind\nloving thy neighbor",
       "words": [
         "generosity",
@@ -778,7 +778,7 @@
       ]
     },
     {
-      "index": 45,
+      "index": 44,
       "text": "the mind of a child\ncreative, curious, joy\nnever let yours go",
       "words": [
         "the",
@@ -796,7 +796,7 @@
       ]
     },
     {
-      "index": 46,
+      "index": 45,
       "text": "ice rains down on life\nsmoothing bumps, magnifying\nwinter chandeliers",
       "words": [
         "ice",
@@ -812,7 +812,7 @@
       ]
     },
     {
-      "index": 47,
+      "index": 46,
       "text": "fire’s fingers dance\nwrap and hug life that once was\nair, to tree, to air",
       "words": [
         "fire’s",
@@ -833,7 +833,7 @@
       ]
     },
     {
-      "index": 48,
+      "index": 47,
       "text": "the parallel curves\nencasing sedum in ice\nsmall bubbly fractals",
       "words": [
         "the",
@@ -849,7 +849,7 @@
       ]
     },
     {
-      "index": 49,
+      "index": 48,
       "text": "crow, quiet and still\nwaits, watches, ruffles, then flies\nthrough the moon’s dim light",
       "words": [
         "crow",
@@ -869,7 +869,7 @@
       ]
     },
     {
-      "index": 50,
+      "index": 49,
       "text": "plot the Devil’s Curve\ncenter on infinity\nlemniscate in walls",
       "words": [
         "plot",
@@ -885,7 +885,7 @@
       ]
     },
     {
-      "index": 51,
+      "index": 50,
       "text": "lofty sequoia\nreach, spread your canopy\nenvelope my eyes",
       "words": [
         "lofty",
@@ -900,7 +900,7 @@
       ]
     },
     {
-      "index": 52,
+      "index": 51,
       "text": "white smeared on the blue\nhints of orange and purple\nclouds gather to speak",
       "words": [
         "white",
@@ -920,7 +920,7 @@
       ]
     },
     {
-      "index": 53,
+      "index": 52,
       "text": "the death of my friends\nI felt the ground shake all night\nyou lay cleft at dawn",
       "words": [
         "the",
@@ -943,7 +943,7 @@
       ]
     },
     {
-      "index": 54,
+      "index": 53,
       "text": "in just one moment\na head injury, a loss\nnever in silence",
       "words": [
         "in",
@@ -961,7 +961,7 @@
       ]
     },
     {
-      "index": 55,
+      "index": 54,
       "text": "the moment for tea\nremove leafs at the right time\nas with all life’s gifts",
       "words": [
         "the",
@@ -982,7 +982,7 @@
       ]
     },
     {
-      "index": 56,
+      "index": 55,
       "text": "repose beneath sky\nfind the space within your mind\nclear the clouds of thought",
       "words": [
         "repose",
@@ -1002,7 +1002,7 @@
       ]
     },
     {
-      "index": 57,
+      "index": 56,
       "text": "the delta, I am\nchanging, growing, condensing\ninto me, not me",
       "words": [
         "the",
@@ -1019,7 +1019,7 @@
       ]
     },
     {
-      "index": 58,
+      "index": 57,
       "text": "coding with patterns\nknit, purl, yarn over, and slip\nfor loops in the wool",
       "words": [
         "coding",
@@ -1039,7 +1039,7 @@
       ]
     },
     {
-      "index": 59,
+      "index": 58,
       "text": "yellow river sky\nin fall you came, but no more\ntributaries — gone",
       "words": [
         "yellow",
@@ -1058,7 +1058,7 @@
       ]
     },
     {
-      "index": 60,
+      "index": 59,
       "text": "on the wire, one wire\none crow sits; a single Om\nresonant with us",
       "words": [
         "on",
@@ -1078,7 +1078,7 @@
       ]
     },
     {
-      "index": 61,
+      "index": 60,
       "text": "point under the sky\nvector fields of stick and cloth\nshow her vortices",
       "words": [
         "point",
@@ -1097,7 +1097,7 @@
       ]
     },
     {
-      "index": 62,
+      "index": 61,
       "text": "council of the crows\nrupture with flight and chorus\nchoices have been made",
       "words": [
         "council",
@@ -1116,7 +1116,7 @@
       ]
     },
     {
-      "index": 63,
+      "index": 62,
       "text": "see the underneath\nthe silhouettes of anthers\nare manifested",
       "words": [
         "see",
@@ -1131,7 +1131,7 @@
       ]
     },
     {
-      "index": 64,
+      "index": 63,
       "text": "the gurgling crows\nto each other, back and forth\nwhat poems they speak",
       "words": [
         "the",
@@ -1150,7 +1150,7 @@
       ]
     },
     {
-      "index": 65,
+      "index": 64,
       "text": "the seven of them\ntogether in flight and tree\nan aerie of grace",
       "words": [
         "the",
@@ -1169,7 +1169,7 @@
       ]
     },
     {
-      "index": 66,
+      "index": 65,
       "text": "oh, cedar waxwings\ngulping berries at sun set\nyou bring me such joy",
       "words": [
         "oh",
@@ -1188,7 +1188,7 @@
       ]
     },
     {
-      "index": 67,
+      "index": 66,
       "text": "pull that little string\nthat will lead you down that path\na trail for thinking",
       "words": [
         "pull",
@@ -1209,7 +1209,7 @@
       ]
     },
     {
-      "index": 68,
+      "index": 67,
       "text": "life shows its beauty\nthe tiny details abound\nwithin all of this",
       "words": [
         "life",
@@ -1227,7 +1227,7 @@
       ]
     },
     {
-      "index": 69,
+      "index": 68,
       "text": "I know you. my friend.\nstill budding though you lay down\ncherish these last leaves",
       "words": [
         "i",
@@ -1248,7 +1248,7 @@
       ]
     },
     {
-      "index": 70,
+      "index": 69,
       "text": "lift yourself with breath\nin and out of your being\na moment will do",
       "words": [
         "lift",
@@ -1268,7 +1268,7 @@
       ]
     },
     {
-      "index": 71,
+      "index": 70,
       "text": "just folding paper\ncreates dragon curve beauty\nspirals of corners",
       "words": [
         "just",
@@ -1284,7 +1284,7 @@
       ]
     },
     {
-      "index": 72,
+      "index": 71,
       "text": "the sea leaves presents\nprecious tokens, and small hints\nfrom a hidden world",
       "words": [
         "the",
@@ -1303,7 +1303,7 @@
       ]
     },
     {
-      "index": 73,
+      "index": 72,
       "text": "we architect webs\nstrands of kindness, grace, and love\nparametric us",
       "words": [
         "we",
@@ -1320,7 +1320,7 @@
       ]
     },
     {
-      "index": 74,
+      "index": 73,
       "text": "I hugged my mother\nI embraced every moment\nwe have ever had",
       "words": [
         "i",
@@ -1338,7 +1338,7 @@
       ]
     },
     {
-      "index": 75,
+      "index": 74,
       "text": "great white fawn lily\nlooking down, your tender roots\nbeneath your breath — “spring”",
       "words": [
         "great",
@@ -1358,7 +1358,7 @@
       ]
     },
     {
-      "index": 76,
+      "index": 75,
       "text": "even the strongest\nwill become covered with moss\nwhen alone with time",
       "words": [
         "even",
@@ -1376,7 +1376,7 @@
       ]
     },
     {
-      "index": 77,
+      "index": 76,
       "text": "I am now learning\nhow to play, to be a child\nplay means letting go",
       "words": [
         "i",
@@ -1397,7 +1397,7 @@
       ]
     },
     {
-      "index": 78,
+      "index": 77,
       "text": "a forest burned shows\nthe skeletal curvature\nflesh removed from earth",
       "words": [
         "a",
@@ -1414,7 +1414,7 @@
       ]
     },
     {
-      "index": 79,
+      "index": 78,
       "text": "I am condensate\ndew that has settled on life\ndestined for the soil",
       "words": [
         "i",
@@ -1433,7 +1433,7 @@
       ]
     },
     {
-      "index": 80,
+      "index": 79,
       "text": "those moments of pause\nbring brown creepers to focus\ncamouflage now seen",
       "words": [
         "those",
@@ -1451,7 +1451,7 @@
       ]
     },
     {
-      "index": 81,
+      "index": 80,
       "text": "I see reflection\nhomeomorphic tree tops\npainted in puddles",
       "words": [
         "i",
@@ -1466,7 +1466,7 @@
       ]
     },
     {
-      "index": 82,
+      "index": 81,
       "text": "to be a raven\nto play in the winds of life\ncloser to the light",
       "words": [
         "to",
@@ -1487,7 +1487,7 @@
       ]
     },
     {
-      "index": 83,
+      "index": 82,
       "text": "vestiges of trees\nswept away — a tide of men\nonly roots remain",
       "words": [
         "vestiges",
@@ -1506,7 +1506,7 @@
       ]
     },
     {
-      "index": 84,
+      "index": 83,
       "text": "non-linear time\nyou are like honey and light\na trickle, a gush",
       "words": [
         "non-linear",
@@ -1524,7 +1524,7 @@
       ]
     },
     {
-      "index": 85,
+      "index": 84,
       "text": "the ease to forget\nthat we are but on a speck\nin a universe",
       "words": [
         "the",
@@ -1544,7 +1544,7 @@
       ]
     },
     {
-      "index": 86,
+      "index": 85,
       "text": "trees churn with current\nrooted, wooden, in whirlpools\ncenturies of flow",
       "words": [
         "trees",
@@ -1561,7 +1561,7 @@
       ]
     },
     {
-      "index": 87,
+      "index": 86,
       "text": "walking random paths\nlooking for meaning, we see\npareidolia",
       "words": [
         "walking",
@@ -1576,7 +1576,7 @@
       ]
     },
     {
-      "index": 88,
+      "index": 87,
       "text": "I have a fixed point\nbut my distance grows in time\nevolving conchoid",
       "words": [
         "i",
@@ -1595,7 +1595,7 @@
       ]
     },
     {
-      "index": 89,
+      "index": 88,
       "text": "I try to let storms\nblow through me and around me\nbut, sometimes I break",
       "words": [
         "i",
@@ -1616,7 +1616,7 @@
       ]
     },
     {
-      "index": 90,
+      "index": 89,
       "text": "abundance flowing\nmy vessel is full of life\nwhen I am present",
       "words": [
         "abundance",
@@ -1634,7 +1634,7 @@
       ]
     },
     {
-      "index": 91,
+      "index": 90,
       "text": "trees dip their big toes\ninto the streams of the sky\nmanifest eddies",
       "words": [
         "trees",
@@ -1653,7 +1653,7 @@
       ]
     },
     {
-      "index": 92,
+      "index": 91,
       "text": "lichen brings color\ncomposite life of crutose\na vibrant puddle",
       "words": [
         "lichen",
@@ -1669,7 +1669,7 @@
       ]
     },
     {
-      "index": 93,
+      "index": 92,
       "text": "a spiral beauty\nrotational symmetry\nperfection in life",
       "words": [
         "a",
@@ -1683,7 +1683,7 @@
       ]
     },
     {
-      "index": 94,
+      "index": 93,
       "text": "I have had to change\nchange my radius of thought\nto find happiness",
       "words": [
         "i",
@@ -1702,7 +1702,7 @@
       ]
     },
     {
-      "index": 95,
+      "index": 94,
       "text": "a new path is found\nit was always here — ready\nnow realized and walked",
       "words": [
         "a",
@@ -1723,7 +1723,7 @@
       ]
     },
     {
-      "index": 96,
+      "index": 95,
       "text": "night time thoughts bring focus\nmoonlit branches projected\nvivid silouettes",
       "words": [
         "night",
@@ -1739,7 +1739,7 @@
       ]
     },
     {
-      "index": 97,
+      "index": 96,
       "text": "as a treehugger\nplant me beside, beneath one\nthe ultimate hug",
       "words": [
         "as",
@@ -1756,7 +1756,7 @@
       ]
     },
     {
-      "index": 98,
+      "index": 97,
       "text": "in an empty lot\nbetween the houses, hidden\npocket of lilies",
       "words": [
         "in",
@@ -1773,7 +1773,7 @@
       ]
     },
     {
-      "index": 99,
+      "index": 98,
       "text": "when you lean into\nthat mountain ahead; summit;\nspread your arms and fly",
       "words": [
         "when",
@@ -1792,7 +1792,7 @@
       ]
     },
     {
-      "index": 100,
+      "index": 99,
       "text": "I have a secret.\nwhen overwhelmed with beauty\nmy soul blows kisses",
       "words": [
         "i",
@@ -1810,7 +1810,7 @@
       ]
     },
     {
-      "index": 101,
+      "index": 100,
       "text": "like glaciers in spring\nchaffing ice in the sun’s warmth\ntulips melt petals",
       "words": [
         "like",
@@ -1829,7 +1829,7 @@
       ]
     },
     {
-      "index": 102,
+      "index": 101,
       "text": "you reach for the moon\nyour little arms, unaware\nof that great distance",
       "words": [
         "you",
@@ -1848,7 +1848,7 @@
       ]
     },
     {
-      "index": 103,
+      "index": 102,
       "text": "we are projections\nof all in the past/future\nthe shadows today",
       "words": [
         "we",
@@ -1865,7 +1865,7 @@
       ]
     },
     {
-      "index": 104,
+      "index": 103,
       "text": "pappus chains; circles\npack them like bijou trinkets\nmemories’ bubbles",
       "words": [
         "pappus",
@@ -1881,7 +1881,7 @@
       ]
     },
     {
-      "index": 105,
+      "index": 104,
       "text": "puddles of sunlight\nscintillate with the soft breeze\nablutions from sky",
       "words": [
         "puddles",
@@ -1898,7 +1898,7 @@
       ]
     },
     {
-      "index": 106,
+      "index": 105,
       "text": "that forest fragrance\nof moss, earth, stream, trees, and life\nlingers deep inside",
       "words": [
         "that",
@@ -1917,7 +1917,7 @@
       ]
     },
     {
-      "index": 107,
+      "index": 106,
       "text": "tuck your babies in\nwith bits of pollen and mud\nlullaby buzzing",
       "words": [
         "tuck",
@@ -1935,7 +1935,7 @@
       ]
     },
     {
-      "index": 108,
+      "index": 107,
       "text": "vortex of petals\ncome to hold my hand, farewell\nwhite gives way to green",
       "words": [
         "vortex",
@@ -1955,7 +1955,7 @@
       ]
     },
     {
-      "index": 109,
+      "index": 108,
       "text": "the swallows are here\ndancing in erratic flight\nthen they perch, so still",
       "words": [
         "the",
@@ -1974,7 +1974,7 @@
       ]
     },
     {
-      "index": 110,
+      "index": 109,
       "text": "seeds we plant today\nmay bring forth fruits beyond us\npropagating good",
       "words": [
         "seeds",
@@ -1992,7 +1992,7 @@
       ]
     },
     {
-      "index": 111,
+      "index": 110,
       "text": "happiness is now\nbreathe it, let it permeate\nev’ry living cell",
       "words": [
         "happiness",
@@ -2009,7 +2009,7 @@
       ]
     },
     {
-      "index": 112,
+      "index": 111,
       "text": "shadows can bring forth\nawareness of light; contrast;\nreveal gratitude",
       "words": [
         "shadows",
@@ -2025,7 +2025,7 @@
       ]
     },
     {
-      "index": 113,
+      "index": 112,
       "text": "a tender wave wafts\nthrough my entire being\nI awake in grace",
       "words": [
         "a",
@@ -2043,7 +2043,7 @@
       ]
     },
     {
-      "index": 114,
+      "index": 113,
       "text": "oh, fairyslipper\nso delicate and hidden\na precious orchid",
       "words": [
         "oh",
@@ -2058,7 +2058,7 @@
       ]
     },
     {
-      "index": 115,
+      "index": 114,
       "text": "I wish I knew how\nto comfort devastation\nit can feel hopeless",
       "words": [
         "i",
@@ -2076,7 +2076,7 @@
       ]
     },
     {
-      "index": 116,
+      "index": 115,
       "text": "I was late for lunch\nhummingbird stopped me to talk\nof the kale flowers",
       "words": [
         "i",
@@ -2096,7 +2096,7 @@
       ]
     },
     {
-      "index": 117,
+      "index": 116,
       "text": "cherry blossom swirls\nturbulence with breath, movement\nwhat currents we make",
       "words": [
         "cherry",
@@ -2113,7 +2113,7 @@
       ]
     },
     {
-      "index": 118,
+      "index": 117,
       "text": "you must bury things\nbefore you can grow; anew\nlife is letting go",
       "words": [
         "you",
@@ -2132,7 +2132,7 @@
       ]
     },
     {
-      "index": 119,
+      "index": 118,
       "text": "light offers shadows\nthe silhouettes that reveal\norientation",
       "words": [
         "light",
@@ -2146,7 +2146,7 @@
       ]
     },
     {
-      "index": 120,
+      "index": 119,
       "text": "sometimes it’s the clouds\nthat provide us with brilliance\nwispy tufts of grace",
       "words": [
         "sometimes",
@@ -2165,7 +2165,7 @@
       ]
     },
     {
-      "index": 121,
+      "index": 120,
       "text": "when is it, you ask\nthe negative space becomes\npositive? a shift",
       "words": [
         "when",
@@ -2183,7 +2183,7 @@
       ]
     },
     {
-      "index": 122,
+      "index": 121,
       "text": "seek out your zeros\nthose intersections in self\nready to be filled",
       "words": [
         "seek",
@@ -2201,7 +2201,7 @@
       ]
     },
     {
-      "index": 123,
+      "index": 122,
       "text": "gratitude sneaks up\nin quite moments of breath\nthe awe of it all",
       "words": [
         "gratitude",
@@ -2220,7 +2220,7 @@
       ]
     },
     {
-      "index": 124,
+      "index": 123,
       "text": "a swallow ballet\nswooping, dancing, and diving\nviolet, green flight",
       "words": [
         "a",
@@ -2236,7 +2236,7 @@
       ]
     },
     {
-      "index": 125,
+      "index": 124,
       "text": "just a breath away\nfrom an utter nakedness\nrevealing true form",
       "words": [
         "just",
@@ -2253,7 +2253,7 @@
       ]
     },
     {
-      "index": 126,
+      "index": 125,
       "text": "be the blank canvas\nthat calls for all the pigments\nevolve into art",
       "words": [
         "be",
@@ -2272,7 +2272,7 @@
       ]
     },
     {
-      "index": 127,
+      "index": 126,
       "text": "we live in these loops\nmandalas of all our time\nliving in circles",
       "words": [
         "we",
@@ -2291,7 +2291,7 @@
       ]
     },
     {
-      "index": 128,
+      "index": 127,
       "text": "an insane loudness\nsilences itself only\nat the ocean’s edge",
       "words": [
         "an",
@@ -2307,7 +2307,7 @@
       ]
     },
     {
-      "index": 129,
+      "index": 128,
       "text": "your feet hold freedom\nto run, prance through life’s meadows\npaths, trails of wonder",
       "words": [
         "your",
@@ -2327,7 +2327,7 @@
       ]
     },
     {
-      "index": 130,
+      "index": 129,
       "text": "the weight of a cloud\nimmense, vast, ocean of mist\ncatches the sun’s rays",
       "words": [
         "the",
@@ -2347,7 +2347,7 @@
       ]
     },
     {
-      "index": 131,
+      "index": 130,
       "text": "we all can transform\ntranslate, reflect, rotate and\nwe even dilate",
       "words": [
         "we",
@@ -2364,7 +2364,7 @@
       ]
     },
     {
-      "index": 132,
+      "index": 131,
       "text": "the outline of death\nstruck down by the weight of ice\nthe remnants of life",
       "words": [
         "the",
@@ -2385,7 +2385,7 @@
       ]
     },
     {
-      "index": 133,
+      "index": 132,
       "text": "the fractals of us\nbetter plotted in polar\ndays, loops, through the years",
       "words": [
         "the",
@@ -2404,7 +2404,7 @@
       ]
     },
     {
-      "index": 134,
+      "index": 133,
       "text": "I feel this blanket\nthat wraps me in warmth and love\neverywhere I go",
       "words": [
         "i",
@@ -2424,7 +2424,7 @@
       ]
     },
     {
-      "index": 135,
+      "index": 134,
       "text": "tell me where to stand\nand I will love every\niota of earth",
       "words": [
         "tell",
@@ -2443,7 +2443,7 @@
       ]
     },
     {
-      "index": 136,
+      "index": 135,
       "text": "you are potential\na ball of a peony\npreparing to bloom",
       "words": [
         "you",
@@ -2460,7 +2460,7 @@
       ]
     },
     {
-      "index": 137,
+      "index": 136,
       "text": "the most precious things\nfound without expectation\non the forest floor",
       "words": [
         "the",
@@ -2477,7 +2477,7 @@
       ]
     },
     {
-      "index": 138,
+      "index": 137,
       "text": "solve the soma cube\npuzzle possibilities\nand create you own",
       "words": [
         "solve",
@@ -2493,7 +2493,7 @@
       ]
     },
     {
-      "index": 139,
+      "index": 138,
       "text": "determination\norigami creases you\nfall into the fold",
       "words": [
         "determination",
@@ -2507,7 +2507,7 @@
       ]
     },
     {
-      "index": 140,
+      "index": 139,
       "text": "and when you suffer\ntake a breath and do something\nutterly selfless",
       "words": [
         "and",
@@ -2525,7 +2525,7 @@
       ]
     },
     {
-      "index": 141,
+      "index": 140,
       "text": "cedar waxwings flock\nsipping dew of torch lilies\na painted earful",
       "words": [
         "cedar",
@@ -2542,7 +2542,7 @@
       ]
     },
     {
-      "index": 142,
+      "index": 141,
       "text": "window deja vu\nlittle hummingbirds come, go.\nfly, eat, then repeat",
       "words": [
         "window",
@@ -2559,7 +2559,7 @@
       ]
     },
     {
-      "index": 143,
+      "index": 142,
       "text": "you turn towards the light\nthat setting sun, warm your breast\nat the tops of trees",
       "words": [
         "you",
@@ -2581,7 +2581,7 @@
       ]
     },
     {
-      "index": 144,
+      "index": 143,
       "text": "so many creatures\nsettle down in the long light\nevening prayers",
       "words": [
         "so",
@@ -2598,7 +2598,7 @@
       ]
     },
     {
-      "index": 145,
+      "index": 144,
       "text": "I wished to see moon\nbut I was deeply shrouded\nin a cloud of sleep",
       "words": [
         "i",
@@ -2619,7 +2619,7 @@
       ]
     },
     {
-      "index": 146,
+      "index": 145,
       "text": "plan those garden beds\nbut let those volunteers grow\nthe spring surprises",
       "words": [
         "plan",
@@ -2637,7 +2637,7 @@
       ]
     },
     {
-      "index": 147,
+      "index": 146,
       "text": "ink can be messy\npainting the world in contrast\nspilled to inspire change",
       "words": [
         "ink",
@@ -2656,7 +2656,7 @@
       ]
     },
     {
-      "index": 148,
+      "index": 147,
       "text": "unfold at sunrise\nchaotic origami\nturning in at night",
       "words": [
         "unfold",
@@ -2671,7 +2671,7 @@
       ]
     },
     {
-      "index": 149,
+      "index": 148,
       "text": "I saw the sunrise\nwithin a rose’s petals\nwarmth from radiance",
       "words": [
         "i",
@@ -2688,7 +2688,7 @@
       ]
     },
     {
-      "index": 150,
+      "index": 149,
       "text": "sometimes birdwatching\nin the reeds of a refuge\nyou see a chicken",
       "words": [
         "sometimes",
@@ -2706,7 +2706,7 @@
       ]
     },
     {
-      "index": 151,
+      "index": 150,
       "text": "pondering polar\ndistance and angle of me\nto what reference?",
       "words": [
         "pondering",
@@ -2722,7 +2722,7 @@
       ]
     },
     {
-      "index": 152,
+      "index": 151,
       "text": "He has a paintbrush\nthat feathers the clouds above\ninto reminders",
       "words": [
         "he",
@@ -2739,7 +2739,7 @@
       ]
     },
     {
-      "index": 153,
+      "index": 152,
       "text": "you can let go now\nrelease the grip that it has\ndetach and then breathe",
       "words": [
         "you",
@@ -2760,7 +2760,7 @@
       ]
     },
     {
-      "index": 154,
+      "index": 153,
       "text": "you still have that dream\nof flight above all of it\nto feel the cloud’s breath",
       "words": [
         "you",
@@ -2782,7 +2782,7 @@
       ]
     },
     {
-      "index": 155,
+      "index": 154,
       "text": "dynamic systems\nwithin your life bring chaos\nabsolute beauty",
       "words": [
         "dynamic",
@@ -2797,7 +2797,7 @@
       ]
     },
     {
-      "index": 156,
+      "index": 155,
       "text": "what once brought me joy\nhas become an impetus\nringing in my head",
       "words": [
         "what",
@@ -2816,7 +2816,7 @@
       ]
     },
     {
-      "index": 157,
+      "index": 156,
       "text": "we perch at the top\non dead branches among clouds\nso we can perceive",
       "words": [
         "we",
@@ -2836,7 +2836,7 @@
       ]
     },
     {
-      "index": 158,
+      "index": 157,
       "text": "with no dimension\nyou can be a single point\nto be a focus",
       "words": [
         "with",
@@ -2855,7 +2855,7 @@
       ]
     },
     {
-      "index": 159,
+      "index": 158,
       "text": "love gutter bubbles\nperfect hemispheres reflect\nthey show us the sky",
       "words": [
         "love",
@@ -2872,7 +2872,7 @@
       ]
     },
     {
-      "index": 160,
+      "index": 159,
       "text": "I just glimpsed the light\nanother reality\nshining through the ground",
       "words": [
         "i",
@@ -2889,7 +2889,7 @@
       ]
     },
     {
-      "index": 161,
+      "index": 160,
       "text": "you ensure the life\nthat surrounds us all, will grow\nwith grains of pollen",
       "words": [
         "you",
@@ -2909,7 +2909,7 @@
       ]
     },
     {
-      "index": 162,
+      "index": 161,
       "text": "you gather to speak\ntogether like wolves that howl\nin waves of cawing",
       "words": [
         "you",
@@ -2928,7 +2928,7 @@
       ]
     },
     {
-      "index": 163,
+      "index": 162,
       "text": "play brings character\nand the unexpected joy\nto the norms of life",
       "words": [
         "play",
@@ -2946,7 +2946,7 @@
       ]
     },
     {
-      "index": 164,
+      "index": 163,
       "text": "the forget-me-nots\nare now weeks past their season\nbrightening shadows",
       "words": [
         "the",
@@ -2962,7 +2962,7 @@
       ]
     },
     {
-      "index": 165,
+      "index": 164,
       "text": "you were in my hands\ntiny feet, before you died\nlittle chickadee",
       "words": [
         "you",
@@ -2980,7 +2980,7 @@
       ]
     },
     {
-      "index": 166,
+      "index": 165,
       "text": "our feathers tell us\nstories of chases, of flight\nruffles in our time",
       "words": [
         "our",
@@ -2999,7 +2999,7 @@
       ]
     },
     {
-      "index": 167,
+      "index": 166,
       "text": "see generations\nin one sedum, young to old\nin growth together",
       "words": [
         "see",
@@ -3016,7 +3016,7 @@
       ]
     },
     {
-      "index": 168,
+      "index": 167,
       "text": "do we flock like Boids?\ncohesion yet separate\nand staying aligned",
       "words": [
         "do",
@@ -3033,7 +3033,7 @@
       ]
     },
     {
-      "index": 169,
+      "index": 168,
       "text": "you do amaze me\nfinding your way without sight\nholding tight; reaching",
       "words": [
         "you",
@@ -3051,7 +3051,7 @@
       ]
     },
     {
-      "index": 170,
+      "index": 169,
       "text": "baby nuthatches\nquivering with their cuteness\nsit now before me",
       "words": [
         "baby",
@@ -3067,7 +3067,7 @@
       ]
     },
     {
-      "index": 171,
+      "index": 170,
       "text": "when I am running\nI do feel incredibly free\nto dwell within me",
       "words": [
         "when",
@@ -3086,7 +3086,7 @@
       ]
     },
     {
-      "index": 172,
+      "index": 171,
       "text": "my orchid’s face me\nmaybe all flowers do this\nthe ones that I see",
       "words": [
         "my",
@@ -3106,7 +3106,7 @@
       ]
     },
     {
-      "index": 173,
+      "index": 172,
       "text": "a vortex caught me\nI was enmeshed in spirals\non the forest floor",
       "words": [
         "a",
@@ -3125,7 +3125,7 @@
       ]
     },
     {
-      "index": 174,
+      "index": 173,
       "text": "long shadows pull me\nfrom any doubt or sadness\nto the long light rays",
       "words": [
         "long",
@@ -3145,7 +3145,7 @@
       ]
     },
     {
-      "index": 175,
+      "index": 174,
       "text": "a Fermat spiral\nlured me from my dreams last night\nthoughts wrapped around me",
       "words": [
         "a",
@@ -3165,7 +3165,7 @@
       ]
     },
     {
-      "index": 176,
+      "index": 175,
       "text": "gossamer catches\nthe light of the sun and moon\nand then scintillates",
       "words": [
         "gossamer",
@@ -3183,7 +3183,7 @@
       ]
     },
     {
-      "index": 177,
+      "index": 176,
       "text": "revert to a child\nand savor those ripe berries\ncrouched in the garden",
       "words": [
         "revert",
@@ -3202,7 +3202,7 @@
       ]
     },
     {
-      "index": 178,
+      "index": 177,
       "text": "my Nana does speak\nfrom the evening robins’ beaks\nsinging of glory",
       "words": [
         "my",
@@ -3220,7 +3220,7 @@
       ]
     },
     {
-      "index": 179,
+      "index": 178,
       "text": "I see you, right there\nbeneath the trees, sun, and moon\nready to unfurl",
       "words": [
         "i",
@@ -3240,7 +3240,7 @@
       ]
     },
     {
-      "index": 180,
+      "index": 179,
       "text": "immerse all of you\ninto the day’s sublime blooms\nutter abundance",
       "words": [
         "immerse",
@@ -3257,7 +3257,7 @@
       ]
     },
     {
-      "index": 181,
+      "index": 180,
       "text": "who would have thought that\nflowers’ beauty marks exist?\npulchritudinous",
       "words": [
         "who",
@@ -3273,7 +3273,7 @@
       ]
     },
     {
-      "index": 182,
+      "index": 181,
       "text": "let us hold it all\nthe weight gives way for the light\ncontrast is but life",
       "words": [
         "let",
@@ -3295,7 +3295,7 @@
       ]
     },
     {
-      "index": 183,
+      "index": 182,
       "text": "I feel all the strands\nthere’s hundreds of finish lines\nacross our life’s trails",
       "words": [
         "i",
@@ -3315,7 +3315,7 @@
       ]
     },
     {
-      "index": 184,
+      "index": 183,
       "text": "squeeze through the portal\nbetween points into a void\nwith the deltoid curve",
       "words": [
         "squeeze",
@@ -3334,7 +3334,7 @@
       ]
     },
     {
-      "index": 185,
+      "index": 184,
       "text": "sometimes do you feel\nlike folded origami?\nrelax your creases",
       "words": [
         "sometimes",
@@ -3350,7 +3350,7 @@
       ]
     },
     {
-      "index": 186,
+      "index": 185,
       "text": "ducklings form a mass\nof little feathers and down\ntrailing a mother",
       "words": [
         "ducklings",
@@ -3368,7 +3368,7 @@
       ]
     },
     {
-      "index": 187,
+      "index": 186,
       "text": "bees bring such a joy\ngardens smile at their presence\ntransforming in growth",
       "words": [
         "bees",
@@ -3387,7 +3387,7 @@
       ]
     },
     {
-      "index": 188,
+      "index": 187,
       "text": "perspectives give us\na way to see each other\nhope for unity",
       "words": [
         "perspectives",
@@ -3405,7 +3405,7 @@
       ]
     },
     {
-      "index": 189,
+      "index": 188,
       "text": "in a full orbit\nour view is from a plane, yet\nlike a point in space",
       "words": [
         "in",
@@ -3427,7 +3427,7 @@
       ]
     },
     {
-      "index": 190,
+      "index": 189,
       "text": "like the heat bubble\nI feel their anxiety\ndreading suffering",
       "words": [
         "like",
@@ -3443,7 +3443,7 @@
       ]
     },
     {
-      "index": 191,
+      "index": 190,
       "text": "when between two rocks\nlift into the sky above\nwith all of your heart",
       "words": [
         "when",
@@ -3463,7 +3463,7 @@
       ]
     },
     {
-      "index": 192,
+      "index": 191,
       "text": "fractions of flowers\nstretch out from golden circles\nPisano petals",
       "words": [
         "fractions",
@@ -3479,7 +3479,7 @@
       ]
     },
     {
-      "index": 193,
+      "index": 192,
       "text": "ocean sand ridges\npaint the histories of tides\nand then sweep away",
       "words": [
         "ocean",
@@ -3497,7 +3497,7 @@
       ]
     },
     {
-      "index": 194,
+      "index": 193,
       "text": "she removes her veil\nrevealing ancient forest\nvestige roots of time",
       "words": [
         "she",
@@ -3514,7 +3514,7 @@
       ]
     },
     {
-      "index": 195,
+      "index": 194,
       "text": "heart rate integrals\ncould sum the beats of a life\ncritical moments",
       "words": [
         "heart",
@@ -3532,7 +3532,7 @@
       ]
     },
     {
-      "index": 196,
+      "index": 195,
       "text": "strands of life do hang\nin helical curls catching\nfiltered solar light",
       "words": [
         "strands",
@@ -3550,7 +3550,7 @@
       ]
     },
     {
-      "index": 197,
+      "index": 196,
       "text": "this year you have bloomed\nto remind me of your laugh\nsmile, and hands. Nana",
       "words": [
         "this",
@@ -3571,7 +3571,7 @@
       ]
     },
     {
-      "index": 198,
+      "index": 197,
       "text": "you chase in the tree\nyou yell and fight over it\nthat small piece of moss",
       "words": [
         "you",
@@ -3593,7 +3593,7 @@
       ]
     },
     {
-      "index": 199,
+      "index": 198,
       "text": "you taught me the words\nmoments learning the flowers\nan umbellifer",
       "words": [
         "you",
@@ -3610,7 +3610,7 @@
       ]
     },
     {
-      "index": 200,
+      "index": 199,
       "text": "on my forest runs\naccidental flushing dog\nbirds flit from my path",
       "words": [
         "on",
@@ -3628,7 +3628,7 @@
       ]
     },
     {
-      "index": 201,
+      "index": 200,
       "text": "look closely on trails\nfor the hidden forest doors\nthat lead to wonder",
       "words": [
         "look",
@@ -3647,7 +3647,7 @@
       ]
     },
     {
-      "index": 202,
+      "index": 201,
       "text": "the simplest joy\nof dancing curves of sunshine\nin my coffee cup",
       "words": [
         "the",
@@ -3665,7 +3665,7 @@
       ]
     },
     {
-      "index": 203,
+      "index": 202,
       "text": "butterfly vortex\nflutters and swirls before me\nI want to fly in",
       "words": [
         "butterfly",
@@ -3683,7 +3683,7 @@
       ]
     },
     {
-      "index": 204,
+      "index": 203,
       "text": "the color palettes\nof an origami quilt\nare much to ponder",
       "words": [
         "the",
@@ -3700,7 +3700,7 @@
       ]
     },
     {
-      "index": 205,
+      "index": 204,
       "text": "evening clouds whisper\nof the day, of tomorrow\nof this time right now",
       "words": [
         "evening",
@@ -3719,7 +3719,7 @@
       ]
     },
     {
-      "index": 206,
+      "index": 205,
       "text": "a beautiful gift\nto sit and watch little swifts\najar to the world",
       "words": [
         "a",
@@ -3738,7 +3738,7 @@
       ]
     },
     {
-      "index": 207,
+      "index": 206,
       "text": "when I’m dead and gone\nthe best gift I could give you\nis to leave no trace",
       "words": [
         "when",
@@ -3761,7 +3761,7 @@
       ]
     },
     {
-      "index": 208,
+      "index": 207,
       "text": "“it’s the hill your on”\nabsolutely wonderful\nwhen you get to peak",
       "words": [
         "“it’s",
@@ -3779,7 +3779,7 @@
       ]
     },
     {
-      "index": 209,
+      "index": 208,
       "text": "self portraits are tough\nthat’s why we should all do them\nmirrors for inside",
       "words": [
         "self",
@@ -3799,7 +3799,7 @@
       ]
     },
     {
-      "index": 210,
+      "index": 209,
       "text": "three-hundred-sixty\nis still such a limited\nview of this wonder",
       "words": [
         "three-hundred-sixty",
@@ -3815,7 +3815,7 @@
       ]
     },
     {
-      "index": 211,
+      "index": 210,
       "text": "hello my deer friend\nshall we prance along this path\nand chase swallowtail?",
       "words": [
         "hello",
@@ -3834,7 +3834,7 @@
       ]
     },
     {
-      "index": 212,
+      "index": 211,
       "text": "my mind ebbs and flows\nwithout the dry spells, the flood\nof thought means nothing",
       "words": [
         "my",
@@ -3855,7 +3855,7 @@
       ]
     },
     {
-      "index": 213,
+      "index": 212,
       "text": "geometric egg\nconstructed with four circles\ntogether a seed",
       "words": [
         "geometric",
@@ -3870,7 +3870,7 @@
       ]
     },
     {
-      "index": 214,
+      "index": 213,
       "text": "this isolation\nbrings on creativity\nquintessence being",
       "words": [
         "this",
@@ -3883,7 +3883,7 @@
       ]
     },
     {
-      "index": 215,
+      "index": 214,
       "text": "I am to math art\nas a Bee is to flower\ncovered in passion",
       "words": [
         "i",
@@ -3903,7 +3903,7 @@
       ]
     },
     {
-      "index": 216,
+      "index": 215,
       "text": "precious gems exist\nat the junction. Sand and sea.\nat the oceans breath",
       "words": [
         "precious",
@@ -3922,7 +3922,7 @@
       ]
     },
     {
-      "index": 217,
+      "index": 216,
       "text": "there is a pulse here\nyou can feel it at the edge\nof your consciousness",
       "words": [
         "there",
@@ -3943,7 +3943,7 @@
       ]
     },
     {
-      "index": 218,
+      "index": 217,
       "text": "simple churns of thought\nlead us to the mind’s wonders\nmake a space for this",
       "words": [
         "simple",
@@ -3964,7 +3964,7 @@
       ]
     },
     {
-      "index": 219,
+      "index": 218,
       "text": "fractal streams draw me\nto a gratitude’s ocean\none drop fills my soul",
       "words": [
         "fractal",
@@ -3983,7 +3983,7 @@
       ]
     },
     {
-      "index": 220,
+      "index": 219,
       "text": "all tracks in your life\nwill be erased by time’s tides\nyet, still tread lightly",
       "words": [
         "all",
@@ -4004,7 +4004,7 @@
       ]
     },
     {
-      "index": 221,
+      "index": 220,
       "text": "I stumbled upon\nthe most beautiful pattern\nwritten by water",
       "words": [
         "i",
@@ -4020,7 +4020,7 @@
       ]
     },
     {
-      "index": 222,
+      "index": 221,
       "text": "I found a carcass\nhalf buried in sand ripples\nhundreds of years old",
       "words": [
         "i",
@@ -4039,7 +4039,7 @@
       ]
     },
     {
-      "index": 223,
+      "index": 222,
       "text": "I long for language\nto speak with the universe\nin a silent mind",
       "words": [
         "i",
@@ -4058,7 +4058,7 @@
       ]
     },
     {
-      "index": 224,
+      "index": 223,
       "text": "gaze in reflection\nat your beauty, your being\ndrink it into you",
       "words": [
         "gaze",
@@ -4076,7 +4076,7 @@
       ]
     },
     {
-      "index": 225,
+      "index": 224,
       "text": "time; non-linear\nbrings us through our existence\nto be here and now",
       "words": [
         "time",
@@ -4094,7 +4094,7 @@
       ]
     },
     {
-      "index": 226,
+      "index": 225,
       "text": "a simplicity\nin plucking sprigs of currants\nlistening to birds",
       "words": [
         "a",
@@ -4110,7 +4110,7 @@
       ]
     },
     {
-      "index": 227,
+      "index": 226,
       "text": "sometimes your anthers\njust need to reach higher up\nout of your flower",
       "words": [
         "sometimes",
@@ -4129,7 +4129,7 @@
       ]
     },
     {
-      "index": 228,
+      "index": 227,
       "text": "your presence brings joy\ncome and sit with me; this day\nin my green garden",
       "words": [
         "your",
@@ -4150,7 +4150,7 @@
       ]
     },
     {
-      "index": 229,
+      "index": 228,
       "text": "sunflowers bow their\nheavy heads in reverence\nto the summers end",
       "words": [
         "sunflowers",
@@ -4167,7 +4167,7 @@
       ]
     },
     {
-      "index": 230,
+      "index": 229,
       "text": "light seems to find you\nreflecting from this good earth\nto your inner self",
       "words": [
         "light",
@@ -4187,7 +4187,7 @@
       ]
     },
     {
-      "index": 231,
+      "index": 230,
       "text": "good morning my friend\nyou peek over the grapes to\nwake me from slumber",
       "words": [
         "good",
@@ -4207,7 +4207,7 @@
       ]
     },
     {
-      "index": 232,
+      "index": 231,
       "text": "I know what you are!\ncatching the little white moths\nwestern wood-peewee",
       "words": [
         "i",
@@ -4225,7 +4225,7 @@
       ]
     },
     {
-      "index": 233,
+      "index": 232,
       "text": "parabolic curves\nappear on my walkabouts\nlife’s concavity",
       "words": [
         "parabolic",
@@ -4239,7 +4239,7 @@
       ]
     },
     {
-      "index": 234,
+      "index": 233,
       "text": "there’s this ritual\nof warm coffee in my cup\nlistening to birds",
       "words": [
         "there’s",
@@ -4257,7 +4257,7 @@
       ]
     },
     {
-      "index": 235,
+      "index": 234,
       "text": "cottonwoods have arms\nthat hug me; sitting so small\nat their solemn feet",
       "words": [
         "cottonwoods",
@@ -4276,7 +4276,7 @@
       ]
     },
     {
-      "index": 236,
+      "index": 235,
       "text": "sometimes we muster\nanother bloom; another\nshoot; despite ourselves",
       "words": [
         "sometimes",
@@ -4291,7 +4291,7 @@
       ]
     },
     {
-      "index": 237,
+      "index": 236,
       "text": "laying on my back\non the forest floor — I feel\nI hear, I exist",
       "words": [
         "laying",
@@ -4312,7 +4312,7 @@
       ]
     },
     {
-      "index": 238,
+      "index": 237,
       "text": "brace yourself here; now\nfor this — the ground shaking breath\nthat you are given",
       "words": [
         "brace",
@@ -4333,7 +4333,7 @@
       ]
     },
     {
-      "index": 239,
+      "index": 238,
       "text": "but I feel as if\nI fly with all of them that\nhave ever loved me",
       "words": [
         "but",
@@ -4355,7 +4355,7 @@
       ]
     },
     {
-      "index": 240,
+      "index": 239,
       "text": "our days are fractals\nthe sun rises and then sets\nuntil it doesn’t",
       "words": [
         "our",
@@ -4374,7 +4374,7 @@
       ]
     },
     {
-      "index": 241,
+      "index": 240,
       "text": "how the light alone\ncan make the same daily path\nso wondrously new",
       "words": [
         "how",
@@ -4393,7 +4393,7 @@
       ]
     },
     {
-      "index": 242,
+      "index": 241,
       "text": "I see you peeking\nfrom behind those purple clouds\nyou — vast and beyond",
       "words": [
         "i",
@@ -4413,7 +4413,7 @@
       ]
     },
     {
-      "index": 243,
+      "index": 242,
       "text": "untangling this mess\nmakes me feel like a kitten\ncompleting a proof",
       "words": [
         "untangling",
@@ -4431,7 +4431,7 @@
       ]
     },
     {
-      "index": 244,
+      "index": 243,
       "text": "maybe all our days\nare but loops in the garment\nwe create in life",
       "words": [
         "maybe",
@@ -4451,7 +4451,7 @@
       ]
     },
     {
-      "index": 245,
+      "index": 244,
       "text": "selflessness is just\nwhat this small, precious world needs;\nbreathe out compassion",
       "words": [
         "selflessness",
@@ -4469,7 +4469,7 @@
       ]
     },
     {
-      "index": 246,
+      "index": 245,
       "text": "I am so grateful\nfor all of the abundance\nin this existence",
       "words": [
         "i",
@@ -4487,7 +4487,7 @@
       ]
     },
     {
-      "index": 247,
+      "index": 246,
       "text": "I know that my friends\nwill flip the leaves from my grave\nlooking for treasure",
       "words": [
         "i",
@@ -4508,7 +4508,7 @@
       ]
     },
     {
-      "index": 248,
+      "index": 247,
       "text": "there are just some trails\nthat draw you in; and call you\nto the stream; ocean",
       "words": [
         "there",
@@ -4530,7 +4530,7 @@
       ]
     },
     {
-      "index": 249,
+      "index": 248,
       "text": "you asked permission\nbut then just came anyway\nprior to response",
       "words": [
         "you",
@@ -4547,7 +4547,7 @@
       ]
     },
     {
-      "index": 250,
+      "index": 249,
       "text": "slough of quietude\nlet me sit at your still side\nand breath in this life",
       "words": [
         "slough",
@@ -4568,7 +4568,7 @@
       ]
     },
     {
-      "index": 251,
+      "index": 250,
       "text": "I was on my run\nyou tripped me, floating there. but\nwith help you took off",
       "words": [
         "i",
@@ -4590,7 +4590,7 @@
       ]
     },
     {
-      "index": 252,
+      "index": 251,
       "text": "there are these paintings\nwith strokes of grass and azure\nthat still my being",
       "words": [
         "there",
@@ -4610,7 +4610,7 @@
       ]
     },
     {
-      "index": 253,
+      "index": 252,
       "text": "this hug was intense\nit left only a small crack\nbetween our essence",
       "words": [
         "this",
@@ -4629,7 +4629,7 @@
       ]
     },
     {
-      "index": 254,
+      "index": 253,
       "text": "I could walk this path\nand dip myself in the clouds\nboardwalk to the sky",
       "words": [
         "i",
@@ -4650,7 +4650,7 @@
       ]
     },
     {
-      "index": 255,
+      "index": 254,
       "text": "do you like to think\nabout all your vertices\nand edges within?",
       "words": [
         "do",
@@ -4668,7 +4668,7 @@
       ]
     },
     {
-      "index": 256,
+      "index": 255,
       "text": "you know you must go\nfloat away on gentle breeze\nto start to become",
       "words": [
         "you",
@@ -4688,7 +4688,7 @@
       ]
     },
     {
-      "index": 257,
+      "index": 256,
       "text": "I know, even though\nyou need not the sun or moon\nthat you still love them",
       "words": [
         "i",
@@ -4710,7 +4710,7 @@
       ]
     },
     {
-      "index": 258,
+      "index": 257,
       "text": "in the corner you\ntease me with the gold to come\nraining from the sky",
       "words": [
         "in",
@@ -4731,7 +4731,7 @@
       ]
     },
     {
-      "index": 259,
+      "index": 258,
       "text": "sometimes luminance\nlets us forget what it is\nthat is up or down",
       "words": [
         "sometimes",
@@ -4750,7 +4750,7 @@
       ]
     },
     {
-      "index": 260,
+      "index": 259,
       "text": "in the quiet dusk\nyou savor the wind and light\nas pink fades to night",
       "words": [
         "in",
@@ -4771,7 +4771,7 @@
       ]
     },
     {
-      "index": 261,
+      "index": 260,
       "text": "even the clouds long\nto caress you and your light\nwrapping around beams",
       "words": [
         "even",
@@ -4790,7 +4790,7 @@
       ]
     },
     {
-      "index": 262,
+      "index": 261,
       "text": "some of us are those\nthat practice the art of firm\nand serious fun",
       "words": [
         "some",
@@ -4810,7 +4810,7 @@
       ]
     },
     {
-      "index": 263,
+      "index": 262,
       "text": "such perfection is\nfound in every little\niota of life",
       "words": [
         "such",
@@ -4826,7 +4826,7 @@
       ]
     },
     {
-      "index": 264,
+      "index": 263,
       "text": "you swept over me\njust to remind me, nudge me\nto look up — skyward",
       "words": [
         "you",
@@ -4847,7 +4847,7 @@
       ]
     },
     {
-      "index": 265,
+      "index": 264,
       "text": "there are these days — times\nthat I can hardly breathe — gasp\ndue to gratitude",
       "words": [
         "there",
@@ -4869,7 +4869,7 @@
       ]
     },
     {
-      "index": 266,
+      "index": 265,
       "text": "oh my! look at you\nmy precious chickadee-dee\njust beaming with joy",
       "words": [
         "oh",
@@ -4887,7 +4887,7 @@
       ]
     },
     {
-      "index": 267,
+      "index": 266,
       "text": "I breathed alder air\nit filled my lungs with quiet\nspores of seasons’ growth",
       "words": [
         "i",
@@ -4907,7 +4907,7 @@
       ]
     },
     {
-      "index": 268,
+      "index": 267,
       "text": "when you turn in a\ncertain way, the sky swallows\nyou — your silhouette",
       "words": [
         "when",
@@ -4927,7 +4927,7 @@
       ]
     },
     {
-      "index": 269,
+      "index": 268,
       "text": "sometimes you just run\nstraight into a wall of life\nit embraces you",
       "words": [
         "sometimes",
@@ -4946,7 +4946,7 @@
       ]
     },
     {
-      "index": 270,
+      "index": 269,
       "text": "there are days in which\na palette knife smears serpents\non the azure sky",
       "words": [
         "there",
@@ -4966,7 +4966,7 @@
       ]
     },
     {
-      "index": 271,
+      "index": 270,
       "text": "you gather yourself\nto look at the different\nversions you can be",
       "words": [
         "you",
@@ -4984,7 +4984,7 @@
       ]
     },
     {
-      "index": 272,
+      "index": 271,
       "text": "the weight that you lift\nto the heights that you take wing\ndon’t go unnoticed",
       "words": [
         "the",
@@ -5005,7 +5005,7 @@
       ]
     },
     {
-      "index": 273,
+      "index": 272,
       "text": "to feel that soft breeze\nas you come to repose — pause\nis a bounty breathed",
       "words": [
         "to",
@@ -5027,7 +5027,7 @@
       ]
     },
     {
-      "index": 274,
+      "index": 273,
       "text": "sine waves in the clouds\ncurve down the spine of our sky\na slow dance of white",
       "words": [
         "sine",
@@ -5050,7 +5050,7 @@
       ]
     },
     {
-      "index": 275,
+      "index": 274,
       "text": "when I banished you\nyour response — absolutely\nastonishing — bloom",
       "words": [
         "when",
@@ -5067,7 +5067,7 @@
       ]
     },
     {
-      "index": 276,
+      "index": 275,
       "text": "sustenance I made\nfor you, was an act of love\nyour smile — a delight",
       "words": [
         "sustenance",
@@ -5088,7 +5088,7 @@
       ]
     },
     {
-      "index": 277,
+      "index": 276,
       "text": "you just know how to\nimmerse me in your language\nof branches and roots",
       "words": [
         "you",
@@ -5108,7 +5108,7 @@
       ]
     },
     {
-      "index": 278,
+      "index": 277,
       "text": "I long for rivers\nwith their agates and whirlpools\nplaces for quiet",
       "words": [
         "i",
@@ -5126,7 +5126,7 @@
       ]
     },
     {
-      "index": 279,
+      "index": 278,
       "text": "you have this structure\nthat you store your quietness\nto keep it secure",
       "words": [
         "you",
@@ -5145,7 +5145,7 @@
       ]
     },
     {
-      "index": 280,
+      "index": 279,
       "text": "our lens can turn us\nour world —an upside down sphere\nis there really up?",
       "words": [
         "our",
@@ -5166,7 +5166,7 @@
       ]
     },
     {
-      "index": 281,
+      "index": 280,
       "text": "at the tops of hills\nyour calls and antics amuse\nmy canada jay",
       "words": [
         "at",
@@ -5185,7 +5185,7 @@
       ]
     },
     {
-      "index": 282,
+      "index": 281,
       "text": "I dream that you kiss\nasymptote, vanishing point\npulls you together",
       "words": [
         "i",
@@ -5202,7 +5202,7 @@
       ]
     },
     {
-      "index": 283,
+      "index": 282,
       "text": "so precious is now\nwith youthful minds in my home\nleaving playful trails",
       "words": [
         "so",
@@ -5221,7 +5221,7 @@
       ]
     },
     {
-      "index": 284,
+      "index": 283,
       "text": "autumn calls us all\njust the other day, grape leaves\ndanced in the changed wind",
       "words": [
         "autumn",
@@ -5242,7 +5242,7 @@
       ]
     },
     {
-      "index": 285,
+      "index": 284,
       "text": "do you ever just\nlook deep at your reflection\nin awe we exist",
       "words": [
         "do",
@@ -5261,7 +5261,7 @@
       ]
     },
     {
-      "index": 286,
+      "index": 285,
       "text": "symmetry of days\nrotational — reflective\nnodes of our time here",
       "words": [
         "symmetry",
@@ -5278,7 +5278,7 @@
       ]
     },
     {
-      "index": 287,
+      "index": 286,
       "text": "tiny little life\non the floor of the forest\ncalls me to be small",
       "words": [
         "tiny",
@@ -5298,7 +5298,7 @@
       ]
     },
     {
-      "index": 288,
+      "index": 287,
       "text": "sunlight in canyons\nforges clouds among the trees\nbreath in this wildwood",
       "words": [
         "sunlight",
@@ -5316,7 +5316,7 @@
       ]
     },
     {
-      "index": 289,
+      "index": 288,
       "text": "I see your columns\nextensions of my being\nreaching skyward — up",
       "words": [
         "i",
@@ -5334,7 +5334,7 @@
       ]
     },
     {
-      "index": 290,
+      "index": 289,
       "text": "let yourself be here\nin your autumn glow, right now\na light before dark",
       "words": [
         "let",
@@ -5354,7 +5354,7 @@
       ]
     },
     {
-      "index": 291,
+      "index": 290,
       "text": "our consciousness is\nbut drops — collecting, dripping\nevaporating",
       "words": [
         "our",
@@ -5369,7 +5369,7 @@
       ]
     },
     {
-      "index": 292,
+      "index": 291,
       "text": "when you submerge, keep\nyour eyes wide open to see\nall that flows in time",
       "words": [
         "when",
@@ -5390,7 +5390,7 @@
       ]
     },
     {
-      "index": 293,
+      "index": 292,
       "text": "in the mossy dusk\nreflect your being in the\nselfless river here",
       "words": [
         "in",
@@ -5408,7 +5408,7 @@
       ]
     },
     {
-      "index": 294,
+      "index": 293,
       "text": "your palm faces down\nto feel this — a precious earth\na nurturing act",
       "words": [
         "your",
@@ -5428,7 +5428,7 @@
       ]
     },
     {
-      "index": 295,
+      "index": 294,
       "text": "sometimes you long to\ncross a bridge from the beneath\nto get your feet wet",
       "words": [
         "sometimes",
@@ -5449,7 +5449,7 @@
       ]
     },
     {
-      "index": 296,
+      "index": 295,
       "text": "hello my winged friend\nI see you and your colors\njoyful perfection",
       "words": [
         "hello",
@@ -5467,7 +5467,7 @@
       ]
     },
     {
-      "index": 297,
+      "index": 296,
       "text": "my cedar waxwing\nfill yourself with this bounty\nI grew it for you",
       "words": [
         "my",
@@ -5486,7 +5486,7 @@
       ]
     },
     {
-      "index": 298,
+      "index": 297,
       "text": "my home has a guard\na battle-ready sentry\nhummingbird defense",
       "words": [
         "my",
@@ -5502,7 +5502,7 @@
       ]
     },
     {
-      "index": 299,
+      "index": 298,
       "text": "soak in your warm bath\nget lost in thought and dream big\nreflect and renew",
       "words": [
         "soak",
@@ -5523,7 +5523,7 @@
       ]
     },
     {
-      "index": 300,
+      "index": 299,
       "text": "we are all so close\nto the heights that we desire\njust remove the load",
       "words": [
         "we",
@@ -5544,7 +5544,7 @@
       ]
     },
     {
-      "index": 301,
+      "index": 300,
       "text": "the most open paths\nmay be the wettest or tough\nbut they will have light",
       "words": [
         "the",
@@ -5565,7 +5565,7 @@
       ]
     },
     {
-      "index": 302,
+      "index": 301,
       "text": "oh, yes, this is it!\ncompletely immerse yourself\nin the day’s raindrops",
       "words": [
         "oh",
@@ -5583,7 +5583,7 @@
       ]
     },
     {
-      "index": 303,
+      "index": 302,
       "text": "you root yourself deep\nwhile reaching over a stream\nof utter delight",
       "words": [
         "you",
@@ -5601,7 +5601,7 @@
       ]
     },
     {
-      "index": 304,
+      "index": 303,
       "text": "my luck dragon came\nto remind me — dream of sky\nall that is above",
       "words": [
         "my",
@@ -5622,7 +5622,7 @@
       ]
     },
     {
-      "index": 305,
+      "index": 304,
       "text": "we run the same paths\nand yet we experience\nsuch different days",
       "words": [
         "we",
@@ -5640,7 +5640,7 @@
       ]
     },
     {
-      "index": 306,
+      "index": 305,
       "text": "some of these rivers\nswiftly move with such volume\ndepth has no meaning",
       "words": [
         "some",
@@ -5659,7 +5659,7 @@
       ]
     },
     {
-      "index": 307,
+      "index": 306,
       "text": "I treat my tea bag\nlike it is the very last\ntied for each refill",
       "words": [
         "i",
@@ -5680,7 +5680,7 @@
       ]
     },
     {
-      "index": 308,
+      "index": 307,
       "text": "this colorful mist\nbrings me in and out of the\nfocus of this path",
       "words": [
         "this",
@@ -5700,7 +5700,7 @@
       ]
     },
     {
-      "index": 309,
+      "index": 308,
       "text": "however I tread\nmay it be quiet and soft\nas though I am not",
       "words": [
         "however",
@@ -5720,7 +5720,7 @@
       ]
     },
     {
-      "index": 310,
+      "index": 309,
       "text": "your entire self — world\nis but a dew drop of sky\nclay, and ev’rything",
       "words": [
         "your",
@@ -5741,7 +5741,7 @@
       ]
     },
     {
-      "index": 311,
+      "index": 310,
       "text": "oh my bald cypress\nyou have shed for the season\nnow, take in more light",
       "words": [
         "oh",
@@ -5762,7 +5762,7 @@
       ]
     },
     {
-      "index": 312,
+      "index": 311,
       "text": "sometimes it’s the clouds\nthat provide the light you seek\nin dark winter days",
       "words": [
         "sometimes",
@@ -5782,7 +5782,7 @@
       ]
     },
     {
-      "index": 313,
+      "index": 312,
       "text": "you gather right there\nready to coalesce — one\npuddle of raindrops",
       "words": [
         "you",
@@ -5800,7 +5800,7 @@
       ]
     },
     {
-      "index": 314,
+      "index": 313,
       "text": "The structure of you\nis beyond understanding\nbeautiful — complex",
       "words": [
         "the",
@@ -5816,7 +5816,7 @@
       ]
     },
     {
-      "index": 315,
+      "index": 314,
       "text": "it is like you stand\nalways reaching to the west\nwaiting for sunset",
       "words": [
         "it",
@@ -5835,7 +5835,7 @@
       ]
     },
     {
-      "index": 316,
+      "index": 315,
       "text": "I saw you today\nin the window made by rain\nwhispering of love",
       "words": [
         "i",
@@ -5854,7 +5854,7 @@
       ]
     },
     {
-      "index": 317,
+      "index": 316,
       "text": "I picture myself\nmerging with the trees and leaves\nnot just in shadow",
       "words": [
         "i",
@@ -5873,7 +5873,7 @@
       ]
     },
     {
-      "index": 318,
+      "index": 317,
       "text": "stopped my class today\nso they could all see this bird\nsummer tanager",
       "words": [
         "stopped",
@@ -5892,7 +5892,7 @@
       ]
     },
     {
-      "index": 319,
+      "index": 318,
       "text": "I write this for you\na permission slip to be\nthe person you are",
       "words": [
         "i",
@@ -5912,7 +5912,7 @@
       ]
     },
     {
-      "index": 320,
+      "index": 319,
       "text": "your consistency\ndoes humble me to this earth\na night reflection",
       "words": [
         "your",
@@ -5929,7 +5929,7 @@
       ]
     },
     {
-      "index": 321,
+      "index": 320,
       "text": "I found you — fallen\nglorious touching the earth\nwhile reflecting sky",
       "words": [
         "i",
@@ -5947,7 +5947,7 @@
       ]
     },
     {
-      "index": 322,
+      "index": 321,
       "text": "I keep company\nthat demands sugary treats\nand announces life",
       "words": [
         "i",
@@ -5963,7 +5963,7 @@
       ]
     },
     {
-      "index": 323,
+      "index": 322,
       "text": "I could write more than\na thousand poems of you\nand still fall so short",
       "words": [
         "i",
@@ -5984,7 +5984,7 @@
       ]
     },
     {
-      "index": 324,
+      "index": 323,
       "text": "reflections at sea\nlead you to this perspective\nearth and sky as one",
       "words": [
         "reflections",
@@ -6003,7 +6003,7 @@
       ]
     },
     {
-      "index": 325,
+      "index": 324,
       "text": "a puddle can seem\nto be a portal of sky\ncradled by the Earth",
       "words": [
         "a",
@@ -6023,7 +6023,7 @@
       ]
     },
     {
-      "index": 326,
+      "index": 325,
       "text": "just look at you there\nplaying in the waves, currents\nand eddies of life",
       "words": [
         "just",
@@ -6043,7 +6043,7 @@
       ]
     },
     {
-      "index": 327,
+      "index": 326,
       "text": "you need solitude\nto truly reflect on you\nat the lowest tide",
       "words": [
         "you",
@@ -6061,7 +6061,7 @@
       ]
     },
     {
-      "index": 328,
+      "index": 327,
       "text": "you are a symbol\nfor being steadfast, constant\nno matter the seas",
       "words": [
         "you",
@@ -6079,7 +6079,7 @@
       ]
     },
     {
-      "index": 329,
+      "index": 328,
       "text": "you reach down into\nthe depths of the light and dark\nto root yourself in",
       "words": [
         "you",
@@ -6100,7 +6100,7 @@
       ]
     },
     {
-      "index": 330,
+      "index": 329,
       "text": "we all need this path\na trail to be hopped and skipped\nto bring us to youth",
       "words": [
         "we",
@@ -6123,7 +6123,7 @@
       ]
     },
     {
-      "index": 331,
+      "index": 330,
       "text": "I think that you might\nreach with your iterations\nfor a sunlit hug",
       "words": [
         "i",
@@ -6142,7 +6142,7 @@
       ]
     },
     {
-      "index": 332,
+      "index": 331,
       "text": "I need to walk there\nin that space — sans time — sans thought\nto truly exist",
       "words": [
         "i",
@@ -6165,7 +6165,7 @@
       ]
     },
     {
-      "index": 333,
+      "index": 332,
       "text": "you just might feel it\nan ancient forest of life\nthat is now but grass",
       "words": [
         "you",
@@ -6186,7 +6186,7 @@
       ]
     },
     {
-      "index": 334,
+      "index": 333,
       "text": "Cassiopeia\nhello — I can see you now\nas the last leaves fall",
       "words": [
         "cassiopeia",
@@ -6205,7 +6205,7 @@
       ]
     },
     {
-      "index": 335,
+      "index": 334,
       "text": "in the sky — a sign\ngreater than Saturn — painted\nas the darkness came",
       "words": [
         "in",
@@ -6226,7 +6226,7 @@
       ]
     },
     {
-      "index": 336,
+      "index": 335,
       "text": "this night sky that comes\nearlier now. Lets us know\nour place in the stars",
       "words": [
         "this",
@@ -6247,7 +6247,7 @@
       ]
     },
     {
-      "index": 337,
+      "index": 336,
       "text": "little winter bee\non the rosemary and frost\ngather energy",
       "words": [
         "little",
@@ -6263,7 +6263,7 @@
       ]
     },
     {
-      "index": 338,
+      "index": 337,
       "text": "we all cling sometimes\nto a season that has passed\nnot ready to go",
       "words": [
         "we",
@@ -6283,7 +6283,7 @@
       ]
     },
     {
-      "index": 339,
+      "index": 338,
       "text": "my road is the path\nof light and shadow, those lines\nin the winter sun",
       "words": [
         "my",
@@ -6304,7 +6304,7 @@
       ]
     },
     {
-      "index": 340,
+      "index": 339,
       "text": "as you look down here\nat the leaves that you have lost\nremember the sky",
       "words": [
         "as",
@@ -6325,7 +6325,7 @@
       ]
     },
     {
-      "index": 341,
+      "index": 340,
       "text": "you take off and fly\nwhen the wind whispers to you\nthat it is now time",
       "words": [
         "you",
@@ -6347,7 +6347,7 @@
       ]
     },
     {
-      "index": 342,
+      "index": 341,
       "text": "there are these comets\nthat have tails pointing ahead\nto the vast beyond",
       "words": [
         "there",
@@ -6366,7 +6366,7 @@
       ]
     },
     {
-      "index": 343,
+      "index": 342,
       "text": "even planets, stars\ncan become tangled in lines\nof aether and light",
       "words": [
         "even",
@@ -6384,7 +6384,7 @@
       ]
     },
     {
-      "index": 344,
+      "index": 343,
       "text": "you’re my paradox\ncoastline measured by atom\nfinite — infinite",
       "words": [
         "you’re",
@@ -6400,7 +6400,7 @@
       ]
     },
     {
-      "index": 345,
+      "index": 344,
       "text": "oh, oyster catcher\ndo seek out that which blends in\nbring us forth those pearls",
       "words": [
         "oh",
@@ -6421,7 +6421,7 @@
       ]
     },
     {
-      "index": 346,
+      "index": 345,
       "text": "a light of guidance\ndoes not point its beam at you\ninstead, it drops hints",
       "words": [
         "a",
@@ -6442,7 +6442,7 @@
       ]
     },
     {
-      "index": 347,
+      "index": 346,
       "text": "the clouds and the sea\npull me to that single point\na focus within",
       "words": [
         "the",
@@ -6462,7 +6462,7 @@
       ]
     },
     {
-      "index": 348,
+      "index": 347,
       "text": "there exists nothing\nlike the sound of waves pulling\ncobbles at high tide",
       "words": [
         "there",
@@ -6481,7 +6481,7 @@
       ]
     },
     {
-      "index": 349,
+      "index": 348,
       "text": "just make sure that you\nseize those moments that make you\nutterly alive",
       "words": [
         "just",
@@ -6500,7 +6500,7 @@
       ]
     },
     {
-      "index": 350,
+      "index": 349,
       "text": "be the horizon\ngrab the celestial light\nat your ocean’s edge",
       "words": [
         "be",
@@ -6517,7 +6517,7 @@
       ]
     },
     {
-      "index": 351,
+      "index": 350,
       "text": "I see sentinels\nthey guard their posts — stand ready\nin hopes of french fries",
       "words": [
         "i",
@@ -6538,7 +6538,7 @@
       ]
     },
     {
-      "index": 352,
+      "index": 351,
       "text": "dive deep into waves\nand find they are but water\nconnected to Earth",
       "words": [
         "dive",
@@ -6557,7 +6557,7 @@
       ]
     },
     {
-      "index": 353,
+      "index": 352,
       "text": "I saw the blue mass\nof this precious blue planet\nleap up to kiss sky",
       "words": [
         "i",
@@ -6578,7 +6578,7 @@
       ]
     },
     {
-      "index": 354,
+      "index": 353,
       "text": "a vector on wind\nwith the magnitude of life\ndirection of change",
       "words": [
         "a",
@@ -6596,7 +6596,7 @@
       ]
     },
     {
-      "index": 355,
+      "index": 354,
       "text": "imagine being\nthat crest of water — a wave\nthat just catches light",
       "words": [
         "imagine",
@@ -6615,7 +6615,7 @@
       ]
     },
     {
-      "index": 356,
+      "index": 355,
       "text": "so many curves here\narcs of me, of time — being\nthe universe rounds",
       "words": [
         "so",
@@ -6635,7 +6635,7 @@
       ]
     },
     {
-      "index": 357,
+      "index": 356,
       "text": "grab the sky and loam\nplace them in your mind’s pocket\nto have them always",
       "words": [
         "grab",
@@ -6656,7 +6656,7 @@
       ]
     },
     {
-      "index": 358,
+      "index": 357,
       "text": "dim the light with fog\nso you can hear the whispers\nof what surrounds you",
       "words": [
         "dim",
@@ -6677,7 +6677,7 @@
       ]
     },
     {
-      "index": 359,
+      "index": 358,
       "text": "to connect with you\nI will reach with all my time\nfor it’s what I have",
       "words": [
         "to",
@@ -6699,7 +6699,7 @@
       ]
     },
     {
-      "index": 360,
+      "index": 359,
       "text": "the muddy puddles\ncan reflect heavenly light\nyou just have to look",
       "words": [
         "the",
@@ -6717,7 +6717,7 @@
       ]
     },
     {
-      "index": 361,
+      "index": 360,
       "text": "your little footprints\nfill my soul with joy, love. In\nthis brief existence",
       "words": [
         "your",
@@ -6736,7 +6736,7 @@
       ]
     },
     {
-      "index": 362,
+      "index": 361,
       "text": "a flurry of white\nswirls in your radiant light\ncalling you to dance",
       "words": [
         "a",
@@ -6755,7 +6755,7 @@
       ]
     },
     {
-      "index": 363,
+      "index": 362,
       "text": "you anticipate\nthat your trail will not be full\nof water and ducks",
       "words": [
         "you",
@@ -6774,7 +6774,7 @@
       ]
     },
     {
-      "index": 364,
+      "index": 363,
       "text": "there you are, my hawk\ncontemplating reflection\nin this little pond",
       "words": [
         "there",
@@ -6791,7 +6791,7 @@
       ]
     },
     {
-      "index": 365,
+      "index": 364,
       "text": "your path can be framed\nwith the steel beams of your thoughts\nto bridge within you",
       "words": [
         "your",
@@ -6813,7 +6813,7 @@
       ]
     },
     {
-      "index": 366,
+      "index": 365,
       "text": "some windows are but\nfractals into more windows\niterated views",
       "words": [
         "some",
@@ -6829,7 +6829,7 @@
       ]
     },
     {
-      "index": 367,
+      "index": 366,
       "text": "I glanced at you — there\nan impetus for your flight\nto gossip of this",
       "words": [
         "i",
@@ -6850,7 +6850,7 @@
       ]
     },
     {
-      "index": 368,
+      "index": 367,
       "text": "oh, how you long to\nbreak free from these tangled limbs\nto be swept by wind",
       "words": [
         "oh",
@@ -6872,7 +6872,7 @@
       ]
     },
     {
-      "index": 369,
+      "index": 368,
       "text": "generative art\nin the cracks beneath my feet\never evolving",
       "words": [
         "generative",
@@ -6888,7 +6888,7 @@
       ]
     },
     {
-      "index": 370,
+      "index": 369,
       "text": "a forest of ferns\nupon a forest by sea\nmodest are the trees",
       "words": [
         "a",
@@ -6907,7 +6907,7 @@
       ]
     },
     {
-      "index": 371,
+      "index": 370,
       "text": "sitka my sitka\nshelter me with your branches\nas I lean to you",
       "words": [
         "sitka",
@@ -6926,7 +6926,7 @@
       ]
     },
     {
-      "index": 372,
+      "index": 371,
       "text": "when you miss the moon\njust keep going — it is but\na sign on your way",
       "words": [
         "when",
@@ -6949,7 +6949,7 @@
       ]
     },
     {
-      "index": 373,
+      "index": 372,
       "text": "the elk must have left\njust before this headland warmed\nwith the morning’s grace",
       "words": [
         "the",
@@ -6969,7 +6969,7 @@
       ]
     },
     {
-      "index": 374,
+      "index": 373,
       "text": "bubbles have been packed\non the surface of the depths\nof my consciousness",
       "words": [
         "bubbles",
@@ -6988,7 +6988,7 @@
       ]
     },
     {
-      "index": 375,
+      "index": 374,
       "text": "you harbor beauty\nin your layers as they fall\noff of you in age",
       "words": [
         "you",
@@ -7008,7 +7008,7 @@
       ]
     },
     {
-      "index": 376,
+      "index": 375,
       "text": "an aperture formed\nto manifest silver clouds\nat the lowest point",
       "words": [
         "an",
@@ -7025,7 +7025,7 @@
       ]
     },
     {
-      "index": 377,
+      "index": 376,
       "text": "somehow blooms do form\nfrom life that I did not know\nwas so capable",
       "words": [
         "somehow",
@@ -7045,7 +7045,7 @@
       ]
     },
     {
-      "index": 378,
+      "index": 377,
       "text": "it’s best not to see\ntoo far ahead of your path\nlook at what’s in reach",
       "words": [
         "it’s",
@@ -7067,7 +7067,7 @@
       ]
     },
     {
-      "index": 379,
+      "index": 378,
       "text": "the currents of geese\nflow through the ocean of sky\nbringing waves of north",
       "words": [
         "the",
@@ -7087,7 +7087,7 @@
       ]
     },
     {
-      "index": 380,
+      "index": 379,
       "text": "just for a moment\nI thought you might sit with me\nand talk of the birds",
       "words": [
         "just",
@@ -7109,7 +7109,7 @@
       ]
     },
     {
-      "index": 381,
+      "index": 380,
       "text": "of growth and decay\nto journey beneath the stars\nunconstrained by thought",
       "words": [
         "of",
@@ -7127,7 +7127,7 @@
       ]
     },
     {
-      "index": 382,
+      "index": 381,
       "text": "breadcrumbs of sunbeams\nlead you to the horizon\nof an inner light",
       "words": [
         "breadcrumbs",
@@ -7145,7 +7145,7 @@
       ]
     },
     {
-      "index": 383,
+      "index": 382,
       "text": "companion within\ntogether in solitude\nat the shore of soul",
       "words": [
         "companion",
@@ -7161,7 +7161,7 @@
       ]
     },
     {
-      "index": 384,
+      "index": 383,
       "text": "a tide of forest\nechoes with branches in streams\ntemporal beings",
       "words": [
         "a",
@@ -7178,7 +7178,7 @@
       ]
     },
     {
-      "index": 385,
+      "index": 384,
       "text": "even in our death\nwe may spring forth foliage\nout of what remains",
       "words": [
         "even",
@@ -7197,7 +7197,7 @@
       ]
     },
     {
-      "index": 386,
+      "index": 385,
       "text": "what seems like chaos\nmight be — organized — perfect\nbeyond what we grasp",
       "words": [
         "what",
@@ -7217,7 +7217,7 @@
       ]
     },
     {
-      "index": 387,
+      "index": 386,
       "text": "I think that you must\nrun your fingers through this sand\nto find what is deep",
       "words": [
         "i",
@@ -7239,7 +7239,7 @@
       ]
     },
     {
-      "index": 388,
+      "index": 387,
       "text": "could this day just be\npainted for you — offering\na breath of color",
       "words": [
         "could",
@@ -7259,7 +7259,7 @@
       ]
     },
     {
-      "index": 389,
+      "index": 388,
       "text": "shoes of sand and moss\ncushion your steps as you run\njoyfully alive",
       "words": [
         "shoes",
@@ -7278,7 +7278,7 @@
       ]
     },
     {
-      "index": 390,
+      "index": 389,
       "text": "now, lessen yourself\nbelow the grasses of thought\nbe in quiet awe",
       "words": [
         "now",
@@ -7296,7 +7296,7 @@
       ]
     },
     {
-      "index": 391,
+      "index": 390,
       "text": "your life has texture\nof earth and aether — of self\nand empty of self",
       "words": [
         "your",
@@ -7317,7 +7317,7 @@
       ]
     },
     {
-      "index": 392,
+      "index": 391,
       "text": "you play when hidden\nconverse in intimate joy\n‘fore you fly away",
       "words": [
         "you",
@@ -7335,7 +7335,7 @@
       ]
     },
     {
-      "index": 393,
+      "index": 392,
       "text": "shadows stretch across\nthe dunes of me — parallel\nconforming to curve",
       "words": [
         "shadows",
@@ -7353,7 +7353,7 @@
       ]
     },
     {
-      "index": 394,
+      "index": 393,
       "text": "separate you stand\nin an ocean of currents\nglorious — alone",
       "words": [
         "separate",
@@ -7370,7 +7370,7 @@
       ]
     },
     {
-      "index": 395,
+      "index": 394,
       "text": "I see this window\nit appears, just at my feet\nof another Earth",
       "words": [
         "i",
@@ -7389,7 +7389,7 @@
       ]
     },
     {
-      "index": 396,
+      "index": 395,
       "text": "reminders of love\nsprout from every atom\nof this universe",
       "words": [
         "reminders",
@@ -7405,7 +7405,7 @@
       ]
     },
     {
-      "index": 397,
+      "index": 396,
       "text": "little hummingbird\nbe the leaf on winter’s tree\nand sing of the spring",
       "words": [
         "little",
@@ -7424,7 +7424,7 @@
       ]
     },
     {
-      "index": 398,
+      "index": 397,
       "text": "thank you my river\nfor receding from my path\nso that I may flow",
       "words": [
         "thank",
@@ -7444,7 +7444,7 @@
       ]
     },
     {
-      "index": 399,
+      "index": 398,
       "text": "I feel the evening\napproach ing— and yet you’re here\nto tuck me in — dream",
       "words": [
         "i",
@@ -7466,7 +7466,7 @@
       ]
     },
     {
-      "index": 400,
+      "index": 399,
       "text": "messengers of trees\nwhisper of white oaks and fir\nof growth and decay",
       "words": [
         "messengers",
@@ -7485,7 +7485,7 @@
       ]
     },
     {
-      "index": 401,
+      "index": 400,
       "text": "you drape down – from up\nalmost as if you desire\nheaven and the Earth",
       "words": [
         "you",
@@ -7506,7 +7506,7 @@
       ]
     },
     {
-      "index": 402,
+      "index": 401,
       "text": "the most shadowed trail\nwill still have footsteps of light\ncontrast on our path",
       "words": [
         "the",
@@ -7526,7 +7526,7 @@
       ]
     },
     {
-      "index": 403,
+      "index": 402,
       "text": "there are these night skies\nthat make you feel like you’re on\nanother planet",
       "words": [
         "there",
@@ -7546,7 +7546,7 @@
       ]
     },
     {
-      "index": 404,
+      "index": 403,
       "text": "Earth has silhouettes\ninfinite, ever-changing\npossibilities",
       "words": [
         "earth",
@@ -7558,7 +7558,7 @@
       ]
     },
     {
-      "index": 405,
+      "index": 404,
       "text": "sing to the kitties\nwhen you enter the forest\nthat stands still and dark",
       "words": [
         "sing",
@@ -7578,7 +7578,7 @@
       ]
     },
     {
-      "index": 406,
+      "index": 405,
       "text": "this junction of ray\nand your fractal being – now\ngoes – as you orbit",
       "words": [
         "this",
@@ -7599,7 +7599,7 @@
       ]
     },
     {
-      "index": 407,
+      "index": 406,
       "text": "I know this portal\nlocked within is history\nI have passed this past",
       "words": [
         "i",
@@ -7618,7 +7618,7 @@
       ]
     },
     {
-      "index": 408,
+      "index": 407,
       "text": "I am sorry friend\nthat you stand alone out here\nI will sit with you",
       "words": [
         "i",
@@ -7639,7 +7639,7 @@
       ]
     },
     {
-      "index": 409,
+      "index": 408,
       "text": "thirty little squares\nmake this icosahedron\norigami joy",
       "words": [
         "thirty",
@@ -7653,7 +7653,7 @@
       ]
     },
     {
-      "index": 410,
+      "index": 409,
       "text": "so, obviously\nyou have been trained to lure us\nwith your fluff and stance",
       "words": [
         "so",
@@ -7673,7 +7673,7 @@
       ]
     },
     {
-      "index": 411,
+      "index": 410,
       "text": "you have the widest\nreach with those ancient branches\nforest holding hands",
       "words": [
         "you",
@@ -7691,7 +7691,7 @@
       ]
     },
     {
-      "index": 412,
+      "index": 411,
       "text": "this small white primrose\nwhispered to my deepest self\nof growth beneath soil",
       "words": [
         "this",
@@ -7710,7 +7710,7 @@
       ]
     },
     {
-      "index": 413,
+      "index": 412,
       "text": "I folded this crane\nto put a thought of peace here\nand then held my breath",
       "words": [
         "i",
@@ -7732,7 +7732,7 @@
       ]
     },
     {
-      "index": 414,
+      "index": 413,
       "text": "on a walkabout\npause to see the warp and weft\nof life around you",
       "words": [
         "on",
@@ -7752,7 +7752,7 @@
       ]
     },
     {
-      "index": 415,
+      "index": 414,
       "text": "your little hands here\nhold what is precious and clear\nto the morning beams",
       "words": [
         "your",
@@ -7772,7 +7772,7 @@
       ]
     },
     {
-      "index": 416,
+      "index": 415,
       "text": "when you are present\nev’ryone becomes silent\nuntil you take flight",
       "words": [
         "when",
@@ -7789,7 +7789,7 @@
       ]
     },
     {
-      "index": 417,
+      "index": 416,
       "text": "there is no limit\nfor the number of poems\nto this small flower",
       "words": [
         "there",
@@ -7808,7 +7808,7 @@
       ]
     },
     {
-      "index": 418,
+      "index": 417,
       "text": "and so, here I am\nin the rain beneath this sky\ndrops encompass me",
       "words": [
         "and",

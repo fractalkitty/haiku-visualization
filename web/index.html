@@ -28,6 +28,21 @@
             bottom: 0;
             background: rgba(0,0,0,0.7);
             z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        
+        #modal.visible {
+            opacity: 1;
+        }
+        
+        .modal-content {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+        
+        .modal-content.visible {
+            opacity: 1;
         }
 
         .modal-content {
@@ -40,6 +55,8 @@
             background: white;
             border-radius: 50%;
             box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
         }
 
         .close {
@@ -143,6 +160,11 @@
             align-items: center;
             justify-content: center;
         }
+        .close{
+            position: absolute;
+            top: 10px;
+            right:10px;
+        }
     </style>
 </head>
 <body>
@@ -191,19 +213,24 @@
             }
         }).catch(error => console.error("❌ Error loading haiku data:", error));
         function showHaikuCloud(word, size, haikuIndices) {
-            modal.style.display = "block";
-            
-            const modalSize = Math.min(600, window.innerWidth * 0.8, window.innerHeight * 0.8);
-            modalSvg
-                .attr("width", modalSize)
-                .attr("height", modalSize);
-            
-
-            modalSvg.selectAll("*").remove();
-
-            const centerX = modalSize / 2;
-            const centerY = modalSize / 2;
-            const radius = modalSize * 0.35;
+        // Clear previous haiku text
+        document.getElementById("haiku-text").innerHTML = "";
+        
+        // Show modal
+        modal.style.display = "block";
+        modal.offsetHeight; // Force reflow
+        modal.classList.add("visible");
+        document.querySelector(".modal-content").classList.add("visible");
+        
+        const modalSize = Math.min(600, window.innerWidth * 0.8, window.innerHeight * 0.8);
+        modalSvg
+            .attr("width", modalSize)
+            .attr("height", modalSize);
+        
+        modalSvg.selectAll("*").remove();
+        const centerX = modalSize / 2;
+        const centerY = modalSize / 2;
+        const radius = modalSize * 0.35;
 
             // Add central word circle and text
             const centerGroup = modalSvg.append("g")
@@ -248,32 +275,32 @@
                 .data(nodes)
                 .join("g")
                 .attr("class", "haiku-node");
-console.log("✅ Haiku Data Loaded in Global Variable:", haikuDataGlobal);
+            
             nodeGroups.append("circle")
                 .attr("r", d => d.r)
                 .style("fill", d3.interpolateBlues(0.3))
                 .style("cursor", "pointer")
                 .on("mouseover", function(event, d) {
                     d3.select(this).style("fill", d3.interpolateBlues(0.6));
-                
-                    let adjustedIndex = Number(d.index) + 1;  // Fix the offset issue
-                
-                    console.log(`🔎 Hovered Index: ${d.index} | Adjusted Index: ${adjustedIndex}`);
+                    
+                    const haikuIndex = haikuIndices[d.index];
+                    
+                    console.log(`🔎 Hovered Index: ${haikuIndex}`);
                     console.log("📜 Available Haiku Indexes:", haikuDataGlobal.map(h => h.index));
                 
-                    const haiku = haikuDataGlobal.find(h => Number(h.index) === adjustedIndex);
+                    const haiku = haikuDataGlobal.find(h => Number(h.index) === haikuIndex);
                 
                     if (!haiku) {
-                        console.warn(`❌ Haiku #${adjustedIndex} not found in dataset!`);
+                        console.warn(`❌ Haiku #${haikuIndex} not found in dataset!`);
                     } else {
-                        console.log(`✅ Found Haiku #${adjustedIndex}:`, haiku.text);
+                        console.log(`✅ Found Haiku #${haikuIndex}:`, haiku.text);
                     }
                 
                     const haikuText = haiku ? haiku.text.replace(/\n/g, "<br><br>") : "<em>Haiku not found</em>";
                 
-                    document.getElementById("haiku-text").innerHTML = `<strong>Haiku #${adjustedIndex}</strong><br>${haikuText}`;
+                    document.getElementById("haiku-text").innerHTML = `<strong>Haiku #${haikuIndex}</strong><br>${haikuText}`;
                 })
-                .on("mouseout", function() { // ✅ Removed incorrect dot before `.on`
+                .on("mouseout", function() {
                     d3.select(this).style("fill", d3.interpolateBlues(0.3));
                     tooltip.style("opacity", 0);
                 });
@@ -282,7 +309,7 @@ console.log("✅ Haiku Data Loaded in Global Variable:", haikuDataGlobal);
             .attr("text-anchor", "middle")
             .attr("dy", "0.35em")
             .style("font-size", d => `${Math.max(d.r * 0.4, 10)}px`)  // Dynamic font size
-            .text(d => d.index);
+            .text(d => haikuIndices[d.index]);  // Use the actual haiku index
 
             function updatePositions() {
                 nodeGroups.attr("transform", d => `translate(${d.x},${d.y})`);
@@ -308,8 +335,21 @@ console.log("✅ Haiku Data Loaded in Global Variable:", haikuDataGlobal);
             nodeGroups.call(drag);
         }
 
-        // Close handlers
-        document.querySelector(".close").onclick = () => modal.style.display = "none";
+        function closeModal() {
+            modal.classList.remove("visible");
+            document.querySelector(".modal-content").classList.remove("visible");
+            setTimeout(() => {
+                modal.style.display = "none";
+            }, 300);
+        }
+        
+        document.querySelector(".close").onclick = closeModal;
+        window.onclick = (event) => {
+            if (event.target === modal) closeModal();
+        };
+        
+        
+        
         window.onclick = (event) => {
             if (event.target == modal) modal.style.display = "none";
         };
