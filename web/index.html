@@ -22,7 +22,7 @@
         #modal {
             display: none;
             position: fixed;
-            top: 0;
+            top: 20px;
             left: 0;
             right: 0;
             bottom: 0;
@@ -30,6 +30,7 @@
             z-index: 1000;
             opacity: 0;
             transition: opacity 0.3s ease-in-out;
+            
         }
         
         #modal.visible {
@@ -51,18 +52,17 @@
             left: 50%;
             transform: translate(-50%, -50%);
             width: min(600px, 80vmin);
-            height: min(600px, 80vmin);
+            max-height: calc(100vh - 40px);  /* ensure it stays within viewport */
+            margin: 20px 0;  /* minimum padding from top/bottom */
             background: white;
             border-radius: 50%;
             box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
         }
 
         .close {
             position: absolute;
-            right: 15%;
-            top: 15%;
+            right: 20px;
+            top: 20px;
             width: 32px;
             height: 32px;
             background: #f3f4f6;
@@ -222,7 +222,9 @@
         modal.classList.add("visible");
         document.querySelector(".modal-content").classList.add("visible");
         
-        const modalSize = Math.min(600, window.innerWidth * 0.8, window.innerHeight * 0.8);
+        const modalSize = window.innerWidth > window.innerHeight 
+        ? Math.min(500, window.innerHeight - 80)  // desktop: more constrained, phone-like
+        : Math.min(600, window.innerWidth * 0.95, window.innerHeight - 40);  // mobile: nearly full width
         modalSvg
             .attr("width", modalSize)
             .attr("height", modalSize);
