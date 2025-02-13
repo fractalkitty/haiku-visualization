@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f9ff;
+            font-family: Arial, sans-serif;
+        }
+        
+        .word-circle { cursor: pointer; }
+        
+        .word-label {
+            opacity: 0;
+            transition: opacity 0.2s;
+            pointer-events: none;
+        }
+
+        g:hover .word-label { opacity: 1; }
+
+        #modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: 1000;
+        }
+
+        .modal-content {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: min(600px, 80vmin);
+            height: min(600px, 80vmin);
+            background: white;
+            border-radius: 50%;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+
+        .close {
+            position: absolute;
+            right: 15%;
+            top: 15%;
+            width: 32px;
+            height: 32px;
+            background: #f3f4f6;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: #666;
+            z-index: 2;
+        }
+
+        .close:hover {
+            background: #e5e7eb;
+        }
+
+        .haiku-tooltip {
+            position: absolute;
+            background: white;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 1001;
+            width: auto;
+            max-width: 400px;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        .haiku-node circle {
+            transition: fill 0.2s;
+        }
+
+        .haiku-node text {
+            pointer-events: none;
+            user-select: none;
+        }
+
+        .center-word {
+            pointer-events: none;
+            text-anchor: middle;
+            dominant-baseline: middle;
+        }
+
+        .center-count {
+            pointer-events: none;
+            text-anchor: middle;
+            dominant-baseline: middle;
+            fill: #666;
+            font-size: 14px;
+        }
+        .modal-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .modal-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: min(600px, 80vmin);
+            height: auto;
+            /* background: white; */
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+        
+        #haiku-display {
+            width: 90%;
+            max-width: 500px;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 15px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.8;
+            height: 250px; /* Fixed height to prevent jumping */
+            overflow: auto; /* Enables scrolling if haiku is too long */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <svg id="main-viz"></svg>
+
+    <div id="modal">
+        <div class="modal-content">
+            <span class="close">x</span>
+            <svg id="modal-viz"></svg>
+            <div id="haiku-display">
+                
+                <p id="haiku-text"></p>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+
+    <div class="haiku-tooltip"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <script>
+        const width = window.innerWidth - 40;
+        const height = window.innerHeight - 40;
+        
+        const svg = d3.select("#main-viz")
+        .attr("viewBox", `0 0 ${window.innerWidth} ${window.innerHeight}`)
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .style("width", "100%")
+        .style("height", "100vh");
+
+        const modal = document.getElementById('modal');
+        const modalSvg = d3.select("#modal-viz");
+        const tooltip = d3.select(".haiku-tooltip");
+        let haikuDataGlobal = []; // ✅ Store haikus globally
+        
+        // ✅ Fetch the haiku data when the page loads
+        d3.json("haiku_data.json").then(response => {
+            console.log("✅ Haiku JSON Loaded:", response);
+        
+            if (response.haikus && Array.isArray(response.haikus)) {
+                haikuDataGlobal = response.haikus; // ✅ Store haikus in global variable
+                console.log("✅ Haikus Stored in Global Variable:", haikuDataGlobal);
+            } else {
+                console.error("❌ 'haikus' array not found in JSON.");
+            }
+        }).catch(error => console.error("❌ Error loading haiku data:", error));
+        function showHaikuCloud(word, size, haikuIndices) {
+            modal.style.display = "block";
+            
+            const modalSize = Math.min(600, window.innerWidth * 0.8, window.innerHeight * 0.8);
+            modalSvg
+                .attr("width", modalSize)
+                .attr("height", modalSize);
+            
+
+            modalSvg.selectAll("*").remove();
+
+            const centerX = modalSize / 2;
+            const centerY = modalSize / 2;
+            const radius = modalSize * 0.35;
+
+            // Add central word circle and text
+            const centerGroup = modalSvg.append("g")
+                .attr("transform", `translate(${centerX}, ${centerY})`);
+
+            centerGroup.append("circle")
+                .attr("r", modalSize * 0.15)
+                .style("fill", d3.interpolateBlues(0.7));
+
+            centerGroup.append("text")
+                .attr("class", "center-word")
+                .attr("dy", "-0.2em")
+                .style("fill", "white")
+                .style("font-size", "24px")
+                .style("font-weight", "bold")
+                .text(word);
+
+            centerGroup.append("text")
+                .attr("class", "center-count")
+                .attr("dy", "1.2em")
+                .style("fill", "white")
+                .text(`${size} times`);
+
+            // Create nodes for force simulation
+            const nodes = haikuIndices.map(index => ({
+                index: index,
+                x: centerX + Math.cos(Math.random() * 2 * Math.PI) * radius,
+                y: centerY + Math.sin(Math.random() * 2 * Math.PI) * radius,
+                r: modalSize * 0.04
+            }));
+
+            // Force simulation
+            const simulation = d3.forceSimulation(nodes)
+            .force("center", d3.forceCenter(centerX, centerY))
+            .force("charge", d3.forceManyBody().strength(-50)) // Weaker repulsion
+            .force("collide", d3.forceCollide().radius(d => d.r * 1.5)) // Less spacing
+            .force("radial", d3.forceRadial(radius * 0.6, centerX, centerY).strength(1)) // Pulls them closer
+            .on("tick", updatePositions);
+
+            // Create orbital nodes
+            const nodeGroups = modalSvg.selectAll(".haiku-node")
+                .data(nodes)
+                .join("g")
+                .attr("class", "haiku-node");
+
+            nodeGroups.append("circle")
+                .attr("r", d => d.r)
+                .style("fill", d3.interpolateBlues(0.3))
+                .style("cursor", "pointer")
+               .on("mouseover", function(event, d) {
+                   d3.select(this).style("fill", d3.interpolateBlues(0.6));
+               
+                   const haiku = haikuDataGlobal.find(h => String(h.index) === String(d.index));
+                   const haikuText = haiku ? haiku.text.replace(/\n/g, "<br><br>") : "<em>Haiku not found</em>";
+               
+                   // Update the haiku display area instead of showing a tooltip
+                   document.getElementById("haiku-text").innerHTML = `<strong>Haiku #${d.index}</strong><br>${haikuText}`;
+               })
+                
+                .on("mouseout", function() {
+                    d3.select(this).style("fill", d3.interpolateBlues(0.3));
+                    tooltip.style("opacity", 0);
+                });
+
+            nodeGroups.append("text")
+            .attr("text-anchor", "middle")
+            .attr("dy", "0.35em")
+            .style("font-size", d => `${Math.max(d.r * 0.4, 10)}px`)  // Dynamic font size
+            .text(d => d.index);
+
+            function updatePositions() {
+                nodeGroups.attr("transform", d => `translate(${d.x},${d.y})`);
+            }
+
+            // Drag behavior
+            const drag = d3.drag()
+                .on("start", (event, d) => {
+                    if (!event.active) simulation.alphaTarget(0.3).restart();
+                    d.fx = d.x;
+                    d.fy = d.y;
+                })
+                .on("drag", (event, d) => {
+                    d.fx = event.x;
+                    d.fy = event.y;
+                })
+                .on("end", (event, d) => {
+                    if (!event.active) simulation.alphaTarget(0);
+                    d.fx = null;
+                    d.fy = null;
+                });
+
+            nodeGroups.call(drag);
+        }
+
+        // Close handlers
+        document.querySelector(".close").onclick = () => modal.style.display = "none";
+        window.onclick = (event) => {
+            if (event.target == modal) modal.style.display = "none";
+        };
+        window.addEventListener("resize", () => {
+            const newWidth = window.innerWidth;
+            const newHeight = window.innerHeight;
+        
+            svg.attr("viewBox", `0 0 ${newWidth} ${newHeight}`);
+        
+            // Resize modal dynamically
+            const modalSize = Math.min(600, newWidth * 0.8, newHeight * 0.8);
+            modalSvg.attr("width", modalSize).attr("height", modalSize);
+        });
+
+        // Main visualization
+        d3.json("haiku_word_cloud.json").then(data => {
+            const root = {
+                name: "words",
+                children: data.map(d => ({
+                    name: d.text,
+                    value: d.size,
+                    haiku_indices: d.haiku_indices
+                }))
+            };
+
+            const pack = d3.pack()
+                .size([width, height])
+                .padding(3);
+
+            const rootNode = d3.hierarchy(root)
+                .sum(d => d.value)
+                .sort((a, b) => b.value - a.value);
+
+            const nodes = pack(rootNode).descendants().slice(1);
+
+            const colorScale = d3.scaleSequential()
+                .domain([0, d3.max(data, d => d.size)])
+                .interpolator(d3.interpolateBlues);
+
+            const circles = svg.selectAll("g")
+                .data(nodes)
+                .join("g")
+                .attr("transform", d => `translate(${d.x},${d.y})`);
+
+            circles.append("circle")
+                .attr("class", "word-circle")
+                .attr("r", d => d.r)
+                .style("fill", d => colorScale(d.data.value))
+                .on("click", (event, d) => {
+                    showHaikuCloud(d.data.name, d.data.value, d.data.haiku_indices);
+                });
+
+            circles.append("text")
+                .attr("class", "word-label")
+                .attr("text-anchor", "middle")
+                .attr("dy", "0.3em")
+                .style("font-size", d => Math.min(d.r * 0.8, 16) + "px")
+                .style("fill", d => d.data.value > d3.max(data, d => d.size) / 2 ? "white" : "black")
+                .text(d => d.data.name);
+        });
+    </script>
+</body>
+</html>
